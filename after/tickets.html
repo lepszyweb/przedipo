@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <title>Witamy w Światłach Miasta! [Dostępna strona Bilety]</title>
+    <meta charset="utf-8">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <script src="../js/onload.js" type="text/javascript"></script>
+    <script src="../js/localdate.js" type="text/javascript"></script>
+  </head>
+	<body>	
+		<div id="meta-header">
+      <p id="skipnav"><a href="#page">Przejdź na początek demo strony niedostępnej</a></p>
+	  
+	  <p id="logos"><a href="http://dostepny.joomla.pl" title="Strona projektu"><img alt="Kuźnia Dostępnych Stron" src="../img/logo_kds.svg" ></a></p>
+		<div id="pagetitle">
+		  <h1><span class="subhead">Kuźnia Dostępnych Stron</span>Demo Przed i Po: Dostępna strona Bilety</h1>
+		  <p class="subline">Ulepsz witrynę, używając Web Content Accessibility Guidelines (WCAG) 2.1</p>
+		</div>
+
+      <div id="mnav" class="accessible">
+        <ul>
+          <li class="first"><a href="../Overview.html">Przegląd</a></li>
+          <li class="first"><a href="home.html">Start</a></li>
+          <li><a href="news.html">Nowiny</a></li>
+          <li class="current"><span class="hidden">Jesteś tutaj: </span>Bilety
+            <div class="subnav"><ul>
+              <li class="inaccessible"><strong>Niedostępna:</strong><a href="../before/tickets.html" class="page"><span class="hidden">Niedostępna </span>strona Bilety</a><a href="../before/reports/tickets.html" class="report"><span class="hidden">Niedostępna strona Bilety </span> Raport</a></li>
+              <li class="accessible"><strong>Dostępna:</strong><a class="page current"><span class="hidden">Dostępna </span>strona Bilety</a><a href="./reports/tickets.html" class="report"><span class="hidden">Dostępna strona Bilety </span> Raport</a></li>
+            </ul><a href="./annotated/tickets.html" class="annotoggle">Pokaż <br>adnotacje</a></div>
+          </li>
+          <li><a href="survey.html">Ankieta</a></li>
+          <li><a href="template.html">Szablon</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="page">
+      <div id="border_t"></div>
+      <div id="border_l">
+        <div id="border_r">
+          <p class="skip" id="startcontent">Demo zaczyna się tutaj</p>
+          <ul class="skip">
+            <li><a href="#content">Przejdź do zawartości (na stronie demo)</a></li>
+            <li><a href="#navtarget">Przejdź do nawigacji (na stronie demo)</a></li>
+          </ul>
+		  <!--// START HEADER AREA //-->		  
+		  <header>
+          <div id="header">
+            <a href="home.html"><img src="./img/toplogo.png" alt="Światła Miasta: Twoje okno na miasto."></a><img src="./img/weather.png" alt="Przejaśnienia">
+            <form action="../../offsite.html" method="post" onsubmit="if(qkmenu.value=='0'){return false;}">
+              <div>
+                <label for="qkmenu" id="qklabel">Przeszukaj witrynę wdług tematów:</label> <select name="qkemnu" id="qkmenu">
+                  <option value="0">Wybierz temat</option>
+				  <option>Bezpieczeństwo</option>
+				  <option>Biblioteki publiczne</option>
+				  <option>Domy społeczne</option>	
+				  <option>Edukacja</option>
+				  <option>Energetyka</option>
+				  <option>Gospodarka odpadami</option>
+				  <option>Pogotowie gazowe</option>
+				  <option>Policja</option>
+				  <option>Polityka rozwoju</option>
+				  <option>Radio i telewizja</option>
+				  <option>Sport</option>
+				  <option>Straż pożarna</option>
+				  <option>Telekomunikacja</option>
+				  <option>Transport</option>
+				  <option>Turystyka</option>
+				  <option>Usługi socjalne</option>
+				  <option>Wodociągi i kanalizacja</option>
+				  <option>Wypoczynek</option>
+				  <option>Zdrowie</option>
+                </select> <input type="submit" value="Idź">
+              </div>
+            </form>
+          </div>
+          <div id="info">
+            <p class="left"><strong>Ruch:</strong> Roboty budowlane na głównej drodze</p>
+            <p class="right" id="weather"><strong>Dzisiaj:</strong> Czwartek 25 stycznia 2012, Przejaśnienia, 23&deg;C</p>
+          </div>
+		  </header>
+		  <!--// END HEADER AREA //-->
+		  <!--// START NAV AREA //-->			  
+          <div id="main">
+            <h2 id="navtarget" class="skip">Menu nawigacyjne:</h2>
+           <nav id="nav" aria-labelledby="navtarget">
+              <ul>
+                <li class="home"><a>Start</a></li>
+                <li class="news"><a href="news.html">Nowiny</a></li>
+                <li class="facts_set"><a href="tickets.html">Bilety</a></li>
+                <li class="survey"><a href="survey.html">Ankieta</a></li>				
+              </ul>
+            </nav>
+		  <!--// START MAIN AREA //-->			
+            <main id="content" class="tickets">
+	
+              <h1>Światła Miasta - Oferta biletów</h1> 
+              <div class="box">
+                <div id="sffloat1">
+                  <p>Światła Miasta we współpracy z firmami z całego świata z dumą oferują specjalne bilety, aby zobaczyć tych wspaniałych artystów - <em><strong><span lang="fr">Les Garçons</span> &amp; The Obelisks</strong></em></p>
+                  <p>Ta <strong>specjalna oferta</strong> jest przeznaczona wyłącznie dla czytelników Świateł Miasta, a bilety można kupić tylko dzwoniąc na infolinię.</p>
+			  
+                </div>
+                <div id="sffloat2">
+                  <table id="sfdatetable">
+                     <caption>Data koncertu</caption>
+                     <tr class="datahead">
+                       <th scope="col">Data</th>
+                       <th scope="col">Wydarzenie</th>
+                     </tr>
+                     <tr>
+                       <td>12 lutego 2011</td>
+                       <td lang="fr">Les Garçons</td>
+                     </tr>
+                     <tr>
+                       <td>10 marca 2011</td>
+                       <td>The Obelisks</td>
+                     </tr>
+                  </table> 
+                </div>
+                <p class="sfbuy">Kup bilety dzwoniąc na infolinię Muzyka ---- kup bilet teraz!: <strong>(1) 269 68742 / (1) 269 M-U-Z-Y-K-A</strong></p>
+              </div> 
+              <table width="100%" class="sfdtable" summary="Ceny biletów na każdy koncert zależą od miejsc; istnieją oddzielne zestawy cen biletów ulgowych i grupowych dla 5 lub więcej osób.">
+                <caption class="head">Ceny biletów na koncerty zespołów <span lang="fr">Les Garçons</span> oraz <span lang="fr">The Obelisks</span></caption>
+                <tr class="datahead">
+                  <th id="c1">Dorośli</th>
+                  <th id="c2"><div>Przednie siedzenia</div></th>
+                  <th id="c3">Tylne siedzenia</th>
+                  <th id="c4">Wygodne siedzenia</th>
+                  <th id="c5">Miejsca stojące</th>
+                </tr>
+                <tr>
+                  <th id="c6" headers="c1" abbr="Obelisks">Obelisks - Monkey, Monkey</th>
+                  <td headers="c1 c2 c6">99,99 zł</td>
+                  <td headers="c1 c3 c6">99,99 zł</td>
+                  <td headers="c1 c4 c6">99,99 zł</td>
+                  <td headers="c1 c5 c6">99,99 zł</td>
+                </tr>
+                <tr>
+                  <th id="c7" headers="c1" abbr="Garçons" lang="fr">Les Garçons de la Plage</th>
+                  <td headers="c1 c2 c7">99,99 zł</td>
+                  <td headers="c1 c3 c7">77,99 zł</td>
+                  <td headers="c1 c4 c7">60,99 zł</td>
+                  <td headers="c1 c5 c7">69,99 zł</td>
+                </tr>
+                <tr class="datahead">
+                  <th id="c8" class="datahead">Koncesja</th>
+                  <td headers="c2"></td>
+                  <td headers="c3"></td>
+                  <td headers="c4"></td>
+                  <td headers="c5"></td>
+                </tr>
+                <tr>
+                  <th id="c9" headers="c8" abbr="Obelisks">Obelisks - Monkey, Monkey</th>
+                  <td headers="c8 c2 c9">99,99 zł</td>
+                  <td headers="c8 c3 c9">99,99 zł</td>
+                  <td headers="c8 c4 c9">99,99 zł</td>
+                  <td headers="c8 c5 c9">99,99 zł</td>
+                </tr>
+                <tr>
+                  <th id="c10" headers="c8" abbr="Garçons" lang="fr">Les Garçons de la Plage</th>
+                  <td headers="c8 c2 c10">99,99 zł</td>
+                  <td headers="c8 c3 c10">77,99 zł</td>
+                  <td headers="c8 c4 c10">60,99 zł</td>
+                  <td headers="c8 c5 c10">69,99 zł</td>
+                </tr>
+                <tr class="datahead">
+                  <th id="c11">Grupy (5 lub więcej)</th>
+                  <td headers="c2"></td>
+                  <td headers="c3"></td>
+                  <td headers="c4"></td>
+                  <td headers="c5"></td>
+                </tr>
+                <tr>
+                  <th id="c12" headers="c11" abbr="Obelisks">Obelisks - Monkey, Monkey</th>
+                  <td headers="c11 c2 c12">74,90 zł</td>
+                  <td headers="c11 c3 c12">74,90 zł</td>
+                  <td headers="c11 c4 c12">74,90 zł</td>
+                  <td headers="c11 c5 c12">74,90 zł</td>
+                </tr>
+                <tr>
+                  <th id="c13" headers="c11" abbr="Garçons" lang="fr">Les Garçons de la Plage</th>
+                  <td headers="c11 c2 c13">74,90 zł</td>
+                  <td headers="c11 c3 c13">99,99 zł</td>
+                  <td headers="c11 c4 c13">49,99 zł</td>
+                  <td headers="c11 c5 c13">48,99 zł</td>
+                </tr>
+              </table> 
+              <div class="box">
+                <p class="sfbuy">Kup bilety dzwoniąc na infolinię Muzyka ---- kup bilet teraz!: <strong>(1) 269 68742 / (1) 269 M-U-Z-Y-K-A</strong></p>
+                <div class="boxcontent">
+                  <h2>Zasady i warunki korzystania z serwisu Światła Miasta</h2>
+                  <ol>
+                    <li>Zgadzasz się, że dzwoniąc na linię M-U-Z-Y-K-A lub czytając jakąkolwiek część niniejszych warunków, że nigdy nie będziesz (a) przekazywać żadnych materiałów jakiejkolwiek osobie, żywej lub zmarłej, któe mogą zostać uznane przez tę osobę za zniesławiajace, szkodliwe, niezgodne z prawem, awanturnicze lub zagmatwane, a ponadto (b) przyjmujesz do wiadomości, że jakiekolwiek podobieństwo między tobą a twoją rodziną i innymi osobami, warzywami lub instrumentami muzycznymi, żywymi lub martwymi albo innymi opisanymi na stronie Światła Miasta jest całkowicie niezamierzone, a jeśli takowe podobieństwo wystąpi, podejmiesz natychmiastowe działania, aby zapobiec ponownemu pojawieniu się tego podobieństwa. </li>
+                    <li>Światła Miasta nie ponoszą odpowiedzialności za jakiekolwiek szkody lub utrate dochodów, dobrą wolę, entuzjazm lub kolor skóry wynikające lub pozostające w związku z jakimkolwiek użyciem lub inną interakcją z (a) stronami internetowymi Świateł Miasta  (b) recenzjami strony internetowej Światła Miasta, (c) wszelkimi pracownikami lub potencjalnymi pracownikami Świateł Miasta w przyszłości lub teraźniejszości lub (d) wszelkich witryn internetowych łączących się lub powiązanych ze stroną internetową Światła Miasta bezpośrednio lub za pośrednictwem innych stron internetowych.</li>
+                    <li>Środki zaradcze: jeżeli Światła Miasta zostałyby nieodwracalnie uszkodzone w stopniu niemożliwym do przewidzenia, a także gdyby postanowienia Sekcji [1] i [2] nie były konkretnie egzekwowane, Światła Miasta będą uprawnione bez zabezpieczenia, innego zabezpieczenia lub dowodu odszkodowania, do odpowiednich sprawiedliwych środków stosowanych w przypadku naruszenia takich przepisów, oprócz innych dostępnych środków zaradczych.</li>
+                  </ol> 
+                </div>
+              </div>
+
+            </main>
+          </div>
+          <!--// START FOOTER AREA //-->			  
+          <footer id="footer">
+            <p><a rel="Copyright" href="https://www.fundacja.joomla.pl">Copyright</a> &copy; 2018 (<a href="https://dostepny.joomla.pl">Kuźnia Dostępnych Stron</a>)<br /><a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 2012 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&reg;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>)
+			</p>
+          </footer><!--// END FOOTER AREA //-->	
+        </div>
+      </div>
+      <div id="border_b"></div>
+    </div>
+		<div id="meta-footer" class="meta">
+			<hr />
+			<div class="meta-footer-in">
+				<p><strong>Przed i Po</strong> wydanie polskie. Copyright <a href="https://joomla.pl">Polskie Centrum Joomla</a> &copy; 2018. Projekt: <a href="http://dostepny.joomla.pl" shape="rect">Kuźnia Dostępnych Stron</a>.</p>
+				<p>[<a href="http://dostepny.joomla.pl/mapa-witryny" shape="rect">Mapa serwisu KDS</a>] [<a href="http://demo.dostepny.joomla.pl" shape="rect">Demo Kuźni Dostępnych Stron</a>] [<a href="http://dostepny.joomla.pl/kontakt" shape="rect">Kontakt</a>]</p>
+	  
+				<div class="copyright">
+					<p>Niniejsza witryna jest unowocześnioną wersją witryny <a href="https://www.w3.org/WAI/demos/bad/"><span lang="en">Before and After Demonstration (BAD)</a>  <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 2012 <a href="http://www.w3.org/">World Wide Web Consortium</a>, (<a href="http://www.lcs.mit.edu/">Massachusetts Institute of Technology</a>, <a href="http://www.ercim.org/">European Research Consortium for Informatics and Mathematics</a>, <a href="http://www.keio.ac.jp/">Keio University</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>). All Rights Reserved.</p>
+	  
+					<p><a href="https://www.w3.org/WAI/demos/bad/">Oryginalna wersja BAD</a> została opracowana <b>pod redakcją</b> <a href="http://www.w3.org/People/shadi/">Shadi Abou-Zahra</a> oraz <a href="http://www.w3.org/WAI/EO/" title="Grupy Roboczej Edukacji i Informacji" lang="en">Education and Outreach Working Group (EOWG)</a> dzięki wsparciu projektów <a href="http://www.w3.org/WAI/TIES/"><abbr title="Web Accessibility Initiative: Training, Implementation, Education, Support">WAI-TIES</abbr></a> oraz <a href="http://www.w3.org/WAI/WAI-AGE/"><abbr title="Web Accessibility Initiative: Ageing Education and Harmonisation">WAI-AGE</abbr></a> i współfinansowana przez Komisję Europjską w ramach programu <abbr lang="en" title="Information Society Technologies">IST</abbr>. Zobacz <a href="acks.html">Podziękowania</a>. Opracowanie wersji polskiej: Stefan Wajda</p> 
+					<p>Witryna jest udostępniana na warunkach <a href="http://www.w3.org/Consortium/Legal/copyright-software">W3C® Software License</a> z nadzieją, że będzie przydatna, ale <strong>bez jakiejkolwiek gwarancji</strong>; nawet domyślnej gwarancji <strong>przydatności handlowej lub przydatności do określonych celów</strong>.</p>
+				</div>	  
+				<p><strong>Status:</strong> Ostatnia aktualizacja 15 sierpnia 2018. (zobacz <a href="./changelog.html">dziennik zmian</a>) </p>
+			</div>
+		</div>
+	</body>
+</html>
