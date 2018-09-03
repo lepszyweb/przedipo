@@ -28,11 +28,11 @@ Demo to służy wielu celom, takim jak podnoszenie świadomości problemów dost
 * **Pisanie szczegółowych raportów z ewaluacji zgodności**. Dobrze napisany raport oceniający jest kluczowy w procesie poprawiania dostępności stron internetowych. Informuje o problemach menedżerów i webmasterów, którzy muszą zdecydować, jakie rozwiązania wdrożyć. Przedstawione w demonstracjach raporty oceniające stanowią wzorcowe przykłady dla osób oceniających.
 
 # Copyright
-Niniejsza witryna jest unowocześnioną wersją witryny Before and After Demonstration (BAD) Copyright © 2012 World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University, Beihang). All Rights Reserved.
+Niniejsza witryna jest unowocześnioną wersją witryny [Before and After Demonstration (BAD)](https://www.w3.org/WAI/demos/bad/) [Copyright © 2012](http://www.w3.org/Consortium/Legal/ipr-notice#Copyright) [World Wide Web Consortium](http://www.w3.org/), ([Massachusetts Institute of Technology](http://www.lcs.mit.edu/), [European Research Consortium for Informatics and Mathematics](http://www.ercim.org/), [Keio University](http://www.keio.ac.jp/), [Beihang](http://ev.buaa.edu.cn/)). All Rights Reserved.
 
-Oryginalna wersja BAD została opracowana pod redakcją Shadi Abou-Zahra oraz Education and Outreach Working Group (EOWG) dzięki wsparciu projektów WAI-TIES oraz WAI-AGE i współfinansowana przez Komisję Europjską w ramach programu IST. Zobacz Podziękowania. Opracowanie wersji polskiej: Stefan Wajda
+[Oryginalna wersja BAD](https://www.w3.org/WAI/demos/bad/) została opracowana pod redakcją [Shadi Abou-Zahra](http://www.w3.org/People/shadi/) oraz [Education and Outreach Working Group (EOWG)](http://www.w3.org/WAI/EO/) dzięki wsparciu projektów [WAI-TIES](http://www.w3.org/WAI/TIES/) oraz [WAI-AGE](http://www.w3.org/WAI/WAI-AGE/) i współfinansowana przez Komisję Europjską w ramach programu IST. 
 
-Witryna jest udostępniana na warunkach W3C® Software License z nadzieją, że będzie przydatna, ale bez jakiejkolwiek gwarancji; nawet domyślnej gwarancji przydatności handlowej lub przydatności do określonych celów.
+Witryna jest udostępniana na warunkach [W3C® Software License](http://www.w3.org/Consortium/Legal/copyright-software) z nadzieją, że będzie przydatna, ale bez jakiejkolwiek gwarancji; nawet domyślnej gwarancji przydatności handlowej lub przydatności do określonych celów.
 
 Status: Ostatnia aktualizacja 15 sierpnia 2018. (zobacz dziennik zmian)
 
