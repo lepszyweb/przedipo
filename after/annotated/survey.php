@@ -91,7 +91,7 @@ if(isset($submit)) {
       <p class="subline">Ulepsz witrynę, używając Web Content Accessibility Guidelines (WCAG) 2.1</p>	  
       <div id="mnav" class="accessible">
         <ul>
-          <li class="first"><a href="../../Overview.html">Przegląd</a></li>
+          <li class="first"><a href="../../index.html">Przegląd</a></li>
           <li class="first"><a href="home.html">Start</a></li>
           <li><a href="news.html">Nowiny</a></li>
           <li><a href="tickets.html">Bilety</a></li>
