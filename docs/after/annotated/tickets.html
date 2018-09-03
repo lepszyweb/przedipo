@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <title>Witamy w Światłach Miasta! [Dostępna strona Bilety]</title>
+    <meta charset="utf-8">
+    <link href="../../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../../css/inbetween.css" rel="stylesheet" type="text/css">
+	<link href="../../css/github.css" rel="stylesheet" type="text/css">
+	
+    <script src="../../js/onload.js" type="text/javascript"></script>
+    <script src="../../js/annotations.js" type="text/javascript"></script>
+    <script src="../../js/localdate.js" type="text/javascript"></script>
+	<script src="../../js/highlight.pack.js" type="text/javascript"></script>
+	
+	<script>hljs.initHighlightingOnLoad();</script>		
+  </head>
+	<body>
+    <div id="meta-header">
+      <div id="skipnav">
+		<ul class="skip">
+			<li><a href="#page">Przejdź na początek strony demo</a></li>
+			<li><a href="#annotations">Przejdź do adnotacji</a></li>
+		</ul>
+	</div>
+	  
+	  <p id="logos"><a href="http://dostepny.joomla.pl" title="Strona projektu"><img alt="Kuźnia Dostępnych Stron" src="../../img/logo_kds.svg" ></a></p>
+		<div id="pagetitle">
+		  <h1><span class="subhead">Kuźnia Dostępnych Stron</span>Demo Przed i Po: Opatrzona adnotacjami dostępna strona Bilety</h1>
+		  <p class="subline">Ulepsz witrynę, używając Web Content Accessibility Guidelines (WCAG) 2.1</p>
+		</div>
+
+      <div id="mnav" class="accessible">
+        <ul>
+          <li class="first"><a href="../../index.html">Przegląd</a></li>
+          <li class="first"><a href="home.html">Start</a></li>
+          <li><a href="news.html">Nowiny</a></li>
+          <li class="current"><span class="hidden">Jesteś tutaj: </span>Bilety
+            <div class="subnav"><ul>
+              <li class="inaccessible"><strong>Niedostępna:</strong><a href="../../before/annotated/tickets.html" class="page"><span class="hidden">Niedostępna </span>strona Bilety</a><a href="../../before/reports/tickets.html" class="report"><span class="hidden">Niedostępna strona Bilety </span> Raport</a></li>
+              <li class="accessible"><strong>Dostępna:</strong><a class="page current"><span class="hidden">Dostępna </span>strona Bilety</a><a href="../reports/tickets.html" class="report"><span class="hidden">Dostępna strona Bilety </span> Raport</a></li>
+            </ul>
+			<a href="../tickets.html" class="annotoggle">Ukryj <br>adnotacje</a>
+			</div>
+          </li>
+          <li><a href="survey.html">Ankieta</a></li>
+          <li><a href="template.html">Szablon</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="page">
+      <div id="border_t"></div>
+      <div id="border_l">
+        <div id="border_r">
+          <p class="skip" id="startcontent">Demo zaczyna się tutaj</p>
+          <ul class="skip">
+            <li><a href="#content">Przejdź do zawartości (na stronie demo)</a></li>
+            <li><a href="#navtarget">Przejdź do nawigacji (na stronie demo)</a></li>
+          </ul>
+		  <!--// START HEADER AREA //-->		  
+		  <header>
+          <div id="header">
+            <a href="home.html"><img src="../img/toplogo.png" alt="Światła Miasta: Twoje okno na miasto."></a><img src="../img/weather.png" alt="Przejaśnienia">
+            <form action="../../offsite.html" method="post" onsubmit="if(qkmenu.value=='0'){return false;}">
+              <div>
+                <label for="qkmenu" id="qklabel">Przeszukaj witrynę wdług tematów:</label> <select name="qkemnu" id="qkmenu">
+                  <option value="0">Wybierz temat</option>
+				  <option>Bezpieczeństwo</option>
+				  <option>Biblioteki publiczne</option>
+				  <option>Domy społeczne</option>	
+				  <option>Edukacja</option>
+				  <option>Energetyka</option>
+				  <option>Gospodarka odpadami</option>
+				  <option>Pogotowie gazowe</option>
+				  <option>Policja</option>
+				  <option>Polityka rozwoju</option>
+				  <option>Radio i telewizja</option>
+				  <option>Sport</option>
+				  <option>Straż pożarna</option>
+				  <option>Telekomunikacja</option>
+				  <option>Transport</option>
+				  <option>Turystyka</option>
+				  <option>Usługi socjalne</option>
+				  <option>Wodociągi i kanalizacja</option>
+				  <option>Wypoczynek</option>
+				  <option>Zdrowie</option>
+                </select> <input type="submit" value="Idź">
+              </div>
+            </form>
+          </div>
+          <div id="info">
+            <p class="left"><strong>Ruch:</strong> Roboty budowlane na głównej drodze</p>
+            <p class="right" id="weather"><strong>Dzisiaj:</strong> Czwartek 25 stycznia 2012, Przejaśnienia, 23&deg;C</p>
+          </div>
+		  </header>
+		  <!--// END HEADER AREA //-->
+		  <!--// START NAV AREA //-->			  
+          <div id="main">
+            <h2 id="navtarget" class="skip">Menu nawigacyjne:</h2>
+           <nav id="nav" aria-labelledby="navtarget">
+              <ul>
+                <li class="home"><a>Start</a></li>
+                <li class="news"><a href="news.html">Nowiny</a></li>
+                <li class="facts_set"><a href="tickets.html">Bilety</a></li>
+                <li class="survey"><a href="survey.html">Ankieta</a></li>				
+              </ul>
+            </nav>
+		  <!--// START MAIN AREA //-->			
+            <main id="content" class="tickets annot_link_parent">
+              <h1>Światła Miasta - Oferta biletów</h1><span id="annot_link_01" class="annot_link prev_sib" style="margin-left: -16.7em !important;padding-right: 15em;"><a href="#annot_01" title="01: Tytuł oznaczony jako nagłówek">01</a></span> 
+              <div class="box">
+                <div id="sffloat1">
+                  <p>Światła Miasta we współpracy z firmami z całego świata z dumą oferują specjalne bilety, aby zobaczyć tych wspaniałych artystów - <em><strong><span lang="fr">Les Garçons</span> &amp; The Obelisks</strong></em></p>
+                  <p class="annot_link_parent">Ta <strong>specjalna oferta</strong><span id="annot_link_03" class="annot_link prev_sib" style="margin-left: -17.2em !important;padding-right: 16em;margin-top:0.2em;font-size:1.333em;"><a href="#annot_03" title="03: Using structure to convey semantic meaning">03</a></span> jest przeznaczona wyłącznie dla czytelników Świateł Miasta, a bilety można kupić tylko dzwoniąc na infolinię.</p>
+                </div>
+                <div id="sffloat2" class="annot_link_parent">
+                  <table id="sfdatetable">
+                     <caption>Data koncertu</caption>
+                     <tr class="datahead">
+                       <th scope="col">Data</th>
+                       <th scope="col">Wydarzenie</th>
+                     </tr>
+                     <tr>
+                       <td>12 lutego 2011</td>
+                       <td lang="fr">Les Garçons</td>
+                     </tr>
+                     <tr>
+                       <td>10 marca 2011</td>
+                       <td>The Obelisks</td>
+                     </tr>
+                  </table><span id="annot_link_02" class="annot_link prev_sib" style="margin-left: -43.3em !important;padding-right: 42.4em;margin-top:.7em;"><a href="#annot_02" title="02: Table headers have been marked up as such">02</a></span> 
+                </div>
+                <p class="sfbuy annot_link_parent">Kup bilety dzwoniąc na infolinię Muzyka ---- kup bilet teraz!: <strong>(1) 269 68742 / (1) 269 M-U-Z-Y-K-A</strong><span id="annot_link_04" class="annot_link prev_sib" style="margin-left: -16.2em !important;padding-right:42.5em;font-size:1.333em;margin-top:-0.1em;"><a href="#annot_04" title="04: Phone number provided as text">04</a></span></p>
+              </div><span id="annot_link_05" class="annot_link next_sib" style="margin-left: -16.9em !important;padding-right: 15em;margin-top:14.9em;"><a href="#annot_05" title="05: Dane tabeli zostały poprawnie uporządkowane">05</a></span> 
+              <table width="100%" class="sfdtable" summary="Ceny biletów na każdy koncert zależą od miejsc; istnieją oddzielne zestawy cen biletów ulgowych i grupowych dla 5 lub więcej osób.">
+                <caption class="head">Ceny biletów na koncerty zespołów  <span lang="fr">Les Garçons</span> oraz The Obelisks</caption>
+                <tr class="datahead">
+                  <th id="c1">Dorośli</th>
+                  <th id="c2"><div class="annot_link_parent">Przednie siedzenia<span id="annot_link_06" class="annot_link parent_node" style="margin-left: -36.9em !important;padding-right: 35em;font-size:1.111em;margin-top:0.4em;"><a href="#annot_06" title="06: Opcje miejsc są podane w całości">06</a></span></div></th>
+                  <th id="c3">Tylne siedzenia</th>
+                  <th id="c4">Wygodne siedzenia</th>
+                  <th id="c5">Miejsca stojące</th>
+                </tr>
+                <tr>
+                  <th id="c6" headers="c1" abbr="Obelisks">Obelisks - Monkey, Monkey</th>
+                  <td headers="c1 c2 c6">99,99 zł</td>
+                  <td headers="c1 c3 c6">99,99 zł</td>
+                  <td headers="c1 c4 c6">99,99 zł</td>
+                  <td headers="c1 c5 c6">99,99 zł</td>
+                </tr>
+                <tr>
+                  <th id="c7" headers="c1" abbr="Garçons" lang="fr">Les Garçons de la Plage</th>
+                  <td headers="c1 c2 c7">99,99 zł</td>
+                  <td headers="c1 c3 c7">77,99 zł</td>
+                  <td headers="c1 c4 c7">60,99 zł</td>
+                  <td headers="c1 c5 c7">69,99 zł</td>
+                </tr>
+                <tr class="datahead">
+                  <th id="c8" class="datahead">Koncesja</th>
+                  <td headers="c2"></td>
+                  <td headers="c3"></td>
+                  <td headers="c4"></td>
+                  <td headers="c5"></td>
+                </tr>
+                <tr>
+                  <th id="c9" headers="c8" abbr="Obelisks">Obelisks - Monkey, Monkey</th>
+                  <td headers="c8 c2 c9">99,99 zł</td>
+                  <td headers="c8 c3 c9">99,99 zł</td>
+                  <td headers="c8 c4 c9">99,99 zł</td>
+                  <td headers="c8 c5 c9">99,99 zł</td>
+                </tr>
+                <tr>
+                  <th id="c10" headers="c8" abbr="Garçons" lang="fr">Les Garçons de la Plage</th>
+                  <td headers="c8 c2 c10">99,99 zł</td>
+                  <td headers="c8 c3 c10">77,99 zł</td>
+                  <td headers="c8 c4 c10">60,99 zł</td>
+                  <td headers="c8 c5 c10">69,99 zł</td>
+                </tr>
+                <tr class="datahead">
+                  <th id="c11">Grupy (5 lub więcej)</th>
+                  <td headers="c2"></td>
+                  <td headers="c3"></td>
+                  <td headers="c4"></td>
+                  <td headers="c5"></td>
+                </tr>
+                <tr>
+                  <th id="c12" headers="c11" abbr="Obelisks">Obelisks - Monkey, Monkey</th>
+                  <td headers="c11 c2 c12">74,90 zł</td>
+                  <td headers="c11 c3 c12">74,90 zł</td>
+                  <td headers="c11 c4 c12">74,90 zł</td>
+                  <td headers="c11 c5 c12">74,90 zł</td>
+                </tr>
+                <tr>
+                  <th id="c13" headers="c11" abbr="Garçons" lang="fr">Les Garçons de la Plage</th>
+                  <td headers="c11 c2 c13">74,90 zł</td>
+                  <td headers="c11 c3 c13">99,99 zł</td>
+                  <td headers="c11 c4 c13">49,99 zł</td>
+                  <td headers="c11 c5 c13">48,99 zł</td>
+                </tr>
+              </table><span id="annot_link_07" class="annot_link prev_sib" style="margin-left: -17.2em !important;padding-right: 15.5em;margin-top:20.5em;"><a href="#annot_07" title="07: Wystarczający kontrast kolorów w celu zwiększenia czytelności">07</a></span> 
+              <div class="box">
+                <p class="sfbuy">Kup bilety dzwoniąc na infolinię Muzyka ---- kup bilet teraz!: <strong>(1) 269 68742 / (1) 269 M-U-Z-Y-K-A</strong></p>
+                <div class="boxcontent annot_link_parent">
+                  <h2>Zasady i warunki korzystania z serwisu Światła Miasta</h2>
+                  <ol>
+                    <li>Zgadzasz się, że dzwoniąc na na linię M-U-Z-Y-K-A lub czytając jakąkolwiek część niniejszych warunków, że nigdy nie będziesz (a) przekazywać żadnych materiałów jakiejkolwiek osobie, żywej lub zmarłej, któe mogą zostać uznane przez tę osobę za zniesławiajace, szkodliwe, niezgodne z prawem, awanturnicze lub zagmatwane, a ponadto (b) przyjmujesz do wiadomości, że jakiekolwiek podobieństwo między tobą a twoją rodziną i innymi osobami, warzywami lub instrumentami muzycznymi, żywymi lub martwymi albo innymi opisanymi na stronie Światła Miasta jest całkowicie niezamierzone, a jeśli takowe podobieństwo wystąpi, podejmiesz natychmiastowe działania, aby zapobiec ponownemu pojawieniu się tego podobieństwa. </li>
+                    <li>Światła Miasta nie ponoszą odpowiedzialności za jakiekolwiek szkody lub utrate dochodów, dobrą wolę, entuzjazm lub kolor skóry wynikające lub pozostające w związku z jakimkolwiek użyciem lub inną interakcją z (a) stronami internetowymi Świateł Miasta  (b) recenzjami strony internetowej Światła Miasta, (c) wszelkimi pracownikami lub potencjalnymi pracownikami Świateł Miasta w przyszłości lub teraźniejszości lub (d) wszelkich witryn internetowych łączących się lub powiązanych ze stroną internetową Światła Miasta bezpośrednio lub za pośrednictwem innych stron internetowych.</li>
+                    <li>Środki zaradcze: jeżeli Światła Miasta zostałyby nieodwracalnie uszkodzone w stopniu niemożliwym do przewidzenia, a także gdyby postanowienia Sekcji [1] i [2] nie były konkretnie egzekwowane, Światła Miasta będą uprawnione bez zabezpieczenia, innego zabezpieczenia lub dowodu odszkodowania, do odpowiednich sprawiedliwych środków stosowanych w przypadku naruszenia takich przepisów, oprócz innych dostępnych środków zaradczych.</li>
+                  </ol><span id="annot_link_08" class="annot_link parent_node" style="margin-left: -18.2em !important;padding-right:17em;font-size:1.33em;margin-top:2em;"><a href="#annot_08" title="08: Tekst jest oznaczony semantycznie i jest łatwiejszy do odczytania">08</a></span> 
+                </div>
+              </div>
+
+            </main>
+          </div>
+          <!--// START FOOTER AREA //-->			  
+          <footer id="footer">
+            <p><a rel="Copyright" href="https://www.fundacja.joomla.pl">Copyright</a> &copy; 2018 (<a href="https://dostepny.joomla.pl">Kuźnia Dostępnych Stron</a>)<br /><a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 2012 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&reg;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>)
+			</p>
+          </footer><!--// END FOOTER AREA //-->	
+        </div>
+      </div>
+      <div id="border_b"></div>
+    <div id="annotations">
+      <hr>
+      <h2>Adnotacje</h2>
+      <div id="annot_01">
+        <h3>Uwaga 01: Tytuł oznaczony jako nagłówek</h3>
+<p>Nagłówek &quot;Światła Miasta - Oferta biletów&quot; został zaznaczony przy użyciu nagłówka HTML i stylizowany wizualnie za pomocą CSS.</p><pre><code>&lt;h1&gt;Światła Miasta - Oferta biletów&lt;/h1&gt;</code></pre>
+        <dl>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G115.html">Technika ogólna G115</a>: Używanie znaczników semantycznych do oznaczania struktury </li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html">Technika HTML H42</a>: Używanie h1-h6 do identyfikacji nagłówków</li></ul></dd>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Kryterium sukcesu 1.4.5 - Obrazy tekstu</a></dt>
+          <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/C22.html">Technika CSS 22</a>: Używanie CSS do kontrolowania wizualnej prezentacji tekstu</dd>
+        </dl>
+        <p><a href="#annot_link_01">Wróć do demo</a></p>
+      </div>
+      <div id="annot_02">
+        <h3>Uwaga 02: Nagłówki tabeli zostały oznaczone jako takie</h3>
+<p>Nagłówki tabeli zostały oznaczone za pomocą elementów <code>th</code> z atrybutami <code>scope</code>, a także z elementem <code>caption</code>.</p><pre><code>&lt;th scope="col"&gt;Data&lt;/th&gt;</code></pre><p>Uwaga: Atrybut <code>summary</code> nie był użyty dla tej prostej tabeli, ponieważ nie zawierałby użytecznych informacji.</p>
+        <dl>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G115.html">Technika ogólna G115</a>: Używanie znaczników semantycznych do oznaczania struktury </li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G138.html">Technika ogólna G138</a>: Używanie semantycznego znacznika, gdy używane są kolorowe wskaźniki</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H63.html">Technika HTML H63</a>: Używanie atrybutu scope do kojarzenia komórek nagłówka i komórek danych w tabelach danych</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H39.html">Technika HTML H39</a>: Używanie elementów napisów do powiązania podpisów tabel danych z tabelami danych</li></ul></dd>
+        </dl>
+        <p><a href="#annot_link_02">Wróć do demo</a></p>
+      </div>
+      <div id="annot_03">
+        <h3>Uwaga 03: Wykorzystanie struktury do przekazania znaczenia semantycznego</h3>
+<p>Tekst &quot;oferta specjalna&quot; jest podkreślany za pomocą elementu <code>strong</code>.</p><pre><code>&lt;strong&gt;oferta specjalna&lt;/strong&gt;</code></pre>
+        <dl>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G115.html">Technika ogólna G115</a>: Używanie znaczników semantycznych do oznaczania struktury </dd>
+        </dl>
+        <p><a href="#annot_link_03">Wróć do demo</a></p>
+      </div>
+      <div id="annot_04">
+        <h3>Uwaga 04: Numer telefonu podany jako tekst</h3>
+<p>Numer telefonu dla linii porad z karczochami jest dostarczany jako tekst (w dwóch formatach - jako liczby i jako słowo), a nie jako obraz.</p><pre><code>&lt;strong&gt;(1) 269 68742 / (1) 269 M-U-Z-Y-K-A&lt;/strong&gt; </code></pre><p>Uwaga: W Polsce słowny format numeru telefonicznego jest bardzo rzadko spotykany.</p>
+        <dl>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#resize-text">Kryterium sukcesu 1.4.4 - Zmiana rozmiaru tekstu</a></dt>
+          <dd>Sugerowana technika: Unikanie użycia tekstu w obrazach rastrowych (przyszły link)</dd>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Kryterium sukcesu 1.4.5 - Obrazy tekstu</a></dt>
+          <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/C22.html">Technika CSS 22</a>: Używanie CSS do kontrolowania wizualnej prezentacji tekstu</dd>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation">Kryterium sukcesu 1.4.8 - Prezentacja wizualna</a></dt>
+          <dd>Sugerowana technika: Unikanie użycia tekstu w obrazach rastrowych (przyszły link)</dd>
+        </dl>
+        <p><a href="#annot_link_04">Wróć do demo</a></p>
+      </div>
+      <div id="annot_05">
+        <h3>Uwaga 05: Dane tabeli zostały poprawnie uporządkowane</h3>
+<p>Komórki danych zostały powiązane z pozycjami tabeli przy użyciu atrybutów <code>id</code> i <code>headers</code>, a atrybut <code>summary</code> został dostarczony do wyjaśnienia relacji między komórkami.</p>
+<pre><code>&lt;table width=&quot;100%&quot; ... summary=&quot;Ceny biletów na każdy koncert zależą od miejsc; 
+istnieją oddzielne zestawy cen biletów ulgowych i grupowych dla 5 lub więcej osób.&quot;&gt;
+...
+&lt;caption class=&quot;head&quot;&gt;Ceny biletów na koncerty zespołów Les Garçons oraz 
+The Obelisks&lt;/caption&gt;
+...
+&lt;th id=&quot;c1&quot;&gt;Dorośli&lt;/th&gt;<br>&lt;th id=&quot;c2&quot;&gt;&lt;div&gt;Przednie siedzenia&lt;/div&gt;&lt;/th&gt;
+...
+&lt;th id=&quot;c6&quot; headers=&quot;c1&quot; abbr=&quot;Obelisks&quot;>Obelisks - Monkey, Monkey&lt;/th&gt;
+&lt;td headers=&quot;c1 c2 c6&quot;>69,99 zł&lt;/td&gt;</code></pre>
+        <dl>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
+          <dd><a href="http://www.w3.org/TR/WCAG20-TECHS/G94">Technika ogólna G94</a>: Zapewnienie krótkiego tekstu alternatywnego dla treści nietekstowych, która służy temu samemu celowi i prezentuje te same informacje, co treść nietekstowa</dd>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H51.html">Technika HTML H51</a>: Używanie znaczników tabel do prezentacji informacji tabelarycznych</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H39.html">Technika HTML H39</a>: Używanie elementów napisów do powiązania podpisów tabel danych z tabelami danych</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H73.html">Technika HTML H73</a>: Używanie atrybutu podsumowania elementu table w celu uzyskania przeglądu tabel danych</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H43.html">Technika HTML H43:</a> Używanie atrybutów id i headers do kojarzenia komórek danych z komórkami nagłówka w tabelach danych</li></ul></dd>
+        </dl>
+        <p><a href="#annot_link_05">Wróć do demo</a></p>
+      </div>
+      <div id="annot_06">
+        <h3>Uwaga 06: Opcje miejsc są podane w całości</h3>
+<p>Opcje miejsc są zapisane całymi wyrazami, unika się akronimów w jak największym stopniu.</p>
+        <dl>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#abbreviations">Kryterium sukcesu 3.1.4 - Skróty</a></dt>
+          <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G102.html">Technika ogólna G102</a>: Udostępnienie rozszerzenia lub wyjaśnienia skrótu</dd>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#reading-level">Kryterium sukcesu 3.1.5 - Poziom umiejętności czytania</a></dt>
+          <dd>Sugerowana technika: Używanie jasnego i prostszego języka właściwego dla treści (przyszły link)</dd>
+        </dl>
+        <p><a href="#annot_link_06">Wróć do demo</a></p>
+      </div>
+      <div id="annot_07">
+        <h3>Uwaga 07: Wystarczający kontrast kolorów w celu zwiększenia czytelności</h3>
+<p>Współczynnik kontrastu między kolorem pierwszego planu (# 000000) a kolorem tła (# c0c0c0) wynosi 11,5: 1 dostatecznie wysoko.</p><pre><code>.datahead { background-color: #c0c0c0; }<br>.sfdtable { color: #000000; }</code></pre>
+        <dl>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced">Kryterium sukcesu - 1.4.6 - Wzmocniony kontrast</a></dt>
+          <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G17.html">Technika ogólna G17</a>: Zapewnienie, że istnieje kontrast wynoszący co najmniej 7: 1 między tekstem (i obrazami tekstu) a tłem za tekstem</dd>
+        </dl>
+        <p><a href="#annot_link_07">Wróć do demo</a></p>
+      </div>
+      <div id="annot_08">
+        <h3>Uwaga 08: Tekst jest oznaczony semantycznie i jest łatwiejszy do odczytania</h3>
+<p>Pogrubienie, kursywa, podkreślenie, pełna justyfikacja, wielkie litery i inne elementy tekstowe są używane tylko wtedy, gdy jest to konieczne, aby zapewnić czytelność, a podkreślony tekst jest oznaczany semantycznie przy użyciu odpowiednich elementów HTML.</p><pre><code>&lt;h2&gt;Zasady i warunki korzystania z serwisu Światła Miasta&lt;/h2&gt;<br>&lt;ol&gt;<br>&lt;li&gt;Zgadzasz się, że dzwoniąc na...</code></pre>
+        <dl>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G115.html">Technika ogólna G115</a>: Używanie znaczników semantycznych do oznaczania struktury </li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html">Technika HTML H42</a>: Używanie h1-h6 do identyfikacji nagłówków</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H48">Technika HTML H48</a>: Użycie ol, ul i dl dla list lub grup łączy</li></ul></dd>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation">Kryterium sukcesu 1.4.8 - Prezentacja wizualna</a></dt>
+          <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/C19.html">Technika CSS C19</a>: Określanie wyrównania do lewej lub prawej strony w CSS</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/C21.html">Technika CSS C21</a>: Określanie odstępów między wierszami w CSS</li><li>Sugerowana technika: Używanie wielkich i małych liter zgodnie z konwencją pisowni języka tekstowego (przyszły link)</li></ul></dd>
+          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#readable">Wytyczna 3.1 - Czytelność</a></dt>
+          <dd><ul><li>Sugerowana technika: Unikanie tekstu wyśrodkowanego (przyszły link)</li><li>Sugerowana technika: Unikanie tekstu w pełni wyjustowanego (do lewego i prawego marginesu) w sposób, który powoduje słaby odstęp między słowami lub znakami (przyszły link)</li><li>Sugerowana technika: Używanie tekstu wyrównanego do lewej dla języków, które są pisane od lewej do prawej i wyrównanego do prawej dla języków, które są pisane od prawej do lewej (przyszły link)</li><li>Sugerowana technika: Unikanie nadużywania różnych stylów na poszczególnych stronach i w witrynie (przyszły link)</li><li>Sugerowana technika: Używanie wielkich i małych liter zgodnie z zasadami pisowni w języku tekstowym (przyszły link</li></ul></dd>
+        </dl>
+        <p><a href="#annot_link_08">Wróć do demo</a></p>
+      </div>
+    </div>
+  </div>
+    <div id="meta-footer" class="meta">
+      <hr>
+      <p><strong>Status:</strong> 20 February 2012 (see <a href="../../changelog.html">changelog</a>) <br>Editors: <a href="http://www.w3.org/People/shadi/">Shadi Abou-Zahra</a> and the <a href="http://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. <br>Developed with support from <a href="http://www.w3.org/WAI/TIES/"><acronym title="Web Accessibility Initiative: Training, Implementation, Education, Support">WAI-TIES</acronym></a> and <a href="http://www.w3.org/WAI/WAI-AGE/"><acronym title="Web Accessibility Initiative: Ageing Education and Harmonisation">WAI-AGE</acronym></a> projects, co-funded by the European Commission <acronym title="Information Society Technologies">IST</acronym> Programme. [see <a href="../../acks.html">Acknowledgements</a>]</p>
+      <p>[<a href="http://www.w3.org/WAI/sitemap.html" shape="rect">WAI Site Map</a>] [<a href="http://www.w3.org/WAI/sitehelp.html" shape="rect">Help with WAI Website</a>] [<a href="http://www.w3.org/WAI/search.php" shape="rect">Search</a>] [<a href="http://www.w3.org/WAI/contacts" shape="rect">Contacting WAI</a>] <br><strong>Feedback welcome to <a href="mailto:wai-eo-editors@w3.org" shape="rect">wai-eo-editors@w3.org</a></strong> (a publicly archived list) or <a href="mailto:wai@w3.org" shape="rect">wai@w3.org</a> (a WAI staff-only list).</p>
+      <div class="copyright"><p><a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 2012 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&reg;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>), All Rights Reserved. W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>, <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> and <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-software">software licensing</a> rules apply. Your interactions with this site are in accordance with our <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Public">public</a> and <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Members">Member</a> privacy statements.</p></div>
+    </div>
+    <div id="lightbox_background"><div id="lightbox_container"></div></div>
+  </body>
+</html>
