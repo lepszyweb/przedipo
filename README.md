@@ -1,7 +1,7 @@
 # O Demo Przed i Po
 Prezentacja Demo Przed i Po jest wielostronicowym zasobem zawierającym niedostępną witrynę internetową i poprawioną wersję tej samej witryny. Każda strona internetowa zawiera adnotacje śródliniowe, które można uaktywnić, aby wyróżnić niektóre najważniejsze bariery dostępności lub poprawki. Do każdej strony internetowej dołączony jest raport oceniający, który informuje projektantów stron o zgodności z wytycznymi dostępności treści WWW (WCAG).
 
-[Zobacz Demo Pzred i Po](https://zwiastunsw.github.io/przedipo/)
+[Zobacz Demo Przed i Po](https://zwiastunsw.github.io/przedipo/)
 
 **Uwaga**: Niniejsze demo ma na celu zilustrowanie wybranych aspektów dostępności internetowej. Nie obejmuje ono wszystkich typów barier dostępności ani wymagań dotyczących dostępności. Część niedostępnej zawartości Demo może sprawiać niektórym czytelnikom trudności w wykorzystaniu.
 
