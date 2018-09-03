@@ -1,5 +1,5 @@
 # O Demo Przed i Po
-Prezentacja Demo Przed i Po jest wielostronicowym zasobem zawierającym niedostępną witrynę internetową i poprawioną wersję tej samej witryny. Każda strona internetowa zawiera adnotacje śródliniowe, które można uaktywnić, aby wyróżnić niektóre najważniejsze bariery dostępności lub poprawki. Do każdej strony internetowej dołączony jest raport oceniający, który informuje projektantów stron o zgodności z wytycznymi dostępności treści WWW (WCAG).
+**Demo Przed i Po** jest wielostronicowym zasobem zawierającym niedostępną witrynę internetową i poprawioną wersję tej samej witryny. Każda strona internetowa zawiera adnotacje śródliniowe, które można uaktywnić, aby wyróżnić niektóre najważniejsze bariery dostępności lub poprawki. Do każdej strony internetowej dołączony jest raport oceniający, który informuje projektantów stron o zgodności z wytycznymi dostępności treści WWW (WCAG).
 
 <a href="https://zwiastunsw.github.io/przedipo/" target="_blank">Zobacz Demo Przed i Po</a>
 
@@ -7,17 +7,17 @@ Prezentacja Demo Przed i Po jest wielostronicowym zasobem zawierającym niedost�
 
 ## Zawartość Demo
 * Przed - niedostępna witryna
-  - strona Start - pokazuje artykuły wyróżnione i zwiastuny
-  - strona Nowiny - pokazuje nowe artykuły i teksty wiadomości
-  - strona Bilety - pokazuje tabele i informacje
-  - strona Ankieta - pokazuje formularze i interakcje
-  - Szablon - używany do tworzenia innych stron
+  - strona **Start** - pokazuje artykuły wyróżnione i zwiastuny
+  - strona **Nowiny** - pokazuje nowe artykuły i teksty wiadomości
+  - strona **Bilety** - pokazuje tabele i informacje
+  - strona **Ankieta** - pokazuje formularze i interakcje
+  - **Szablon** - używany do tworzenia innych stron
 * Po - dostępna witryna
-  - strona Start - pokazuje wyróżnione i zwiastuny
-  - strona Nowin - pokazuje nowe artykuły i teksty wiadomości
-  - strona Bilety - pokazuje tabele i informacje
-  - strona Ankieta - pokazuje formularze i interakcje
-  - Szablon - używany do tworzenia innych stron
+  - strona **Start** - pokazuje wyróżnione i zwiastuny
+  - strona **Nowiny** - pokazuje nowe artykuły i teksty wiadomości
+  - strona **Bilety** - pokazuje tabele i informacje
+  - strona **Ankieta** - pokazuje formularze i interakcje
+  - **Szablon** - używany do tworzenia innych stron
 
 ## Instalacja lokalna
 Zwróć uwagę, że formularz ankiety wymaga serwera WWW z działającym interpreterem PHP. Przesyłanie formularza nie będzie działać na komputerze lokalnym.
