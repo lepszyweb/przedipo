@@ -150,7 +150,7 @@ input[type=submit] {
 #nav ul {
   margin: 0;
   padding: 0;
-  border-bottom: 1px dashed #bdbcbc;
+  /* border-bottom: 1px dashed #bdbcbc; */
 }
 
 #nav li {
@@ -158,18 +158,18 @@ input[type=submit] {
   padding: 0;
   list-style-type: none;
   background-color: #ededed;
-  border: 1px dashed #bdbcbc;
-  border-width: 1px 1px 0 0;
+  /* border: 1px dashed #bdbcbc; */
+  /* border-width: 1px 1px 0 0; */
 }
 
 #nav a {
-  font-size: 1.3em;
-  text-decoration: none;
-  padding: 10px 0  10px 73px;
-  display: block;
-  color: #005a9c;
-  margin: 6px 0 6px;
-  text-transform: uppercase;
+	font-size: 1.3em;
+	text-decoration: none;
+	padding: 15px 10px 15px 75px;
+	display: block;
+	color: #005a9c;
+	margin: 10px 0 10px;
+	text-transform: uppercase;
 }
 
 
@@ -184,55 +184,76 @@ input[type=submit] {
 }
 
 #nav .home a, #nav .home_set a {
-  background: url(../after/img/homeicon.png) no-repeat 10px 0;
+  background: url(../after/img/homeicon.png) no-repeat 10px 5px;
+}
+
+#nav .home a:focus,
+#nav .home_set a:hover {
+  background: url(../after/img/homeicon.png) no-repeat 10px 5px !important;
+}
+
+#nav .news a:focus, 
+#nav .news_set a:hover {
+  background: url(../after/img/newsicon.png) no-repeat 10px 5px !important;
+}
+
+#nav .facts a:focus,
+#nav .facts_set a:hover {
+  background: url(../after/img/factsicon.png) no-repeat 10px 5px !important;
+}
+
+#nav .survey a:focus,
+#nav .survey_set a:hover {
+  background: url(../after/img/surveyicon.png) no-repeat 10px 5px !important;
 }
 
 
+
 #nav .news a, #nav .news_set a {
-  background: url(../after/img/newsicon.png) no-repeat 10px 0;
+  background: url(../after/img/newsicon.png) no-repeat 10px 5px;
 }
 
 
 #nav .facts a, #nav .facts_set a {
-  background: url(../after/img/factsicon.png) no-repeat 10px 0;
+  background: url(../after/img/factsicon.png) no-repeat 10px 5px;
 }
 
 #nav .survey a, #nav .survey_set a {
-  background: url(../after/img/surveyicon.png) no-repeat 10px 0;
+  background: url(../after/img/surveyicon.png) no-repeat 10px 5px;
 }
 #nav .home a:hover, #nav .home_set a:hover {
-  background: #005a9c url(../after/img/homeicon_hover.png) no-repeat 10px 0;
+  background: #005a9c url(../after/img/homeicon_hover.png) no-repeat 10px 5px;
 }
 #nav .news a:hover, #nav .news_set a:hover {
-  background: #005a9c url(../after/img/newsicon_hover.png) no-repeat 10px 0;
+  background: #005a9c url(../after/img/newsicon_hover.png) no-repeat 10px 5px;
 }
 #nav .facts a:hover, #nav .facts_set a:hover {
-  background: #005a9c url(../after/img/factsicon_hover.png) no-repeat 10px 0;
+  background: #005a9c url(../after/img/factsicon_hover.png) no-repeat 10px 5px;
 }
 #nav .survey a:hover, #nav .survey_set a:hover {
-  background: #005a9c url(../after/img/surveyicon_hover.png) no-repeat 10px 0;
+  background: #005a9c url(../after/img/surveyicon_hover.png) no-repeat 10px 5px;
 }
 
 #nav .home a:hover, #nav .home_set a, #nav .home_set a:hover {
   background-color: #005a9c ;
-  color: #fff;
-  background: #005a9c url(../after/img/homeicon_hover.png) no-repeat 10px 0;  
+  color: #fff !important;
+  background: #005a9c url(../after/img/homeicon_hover.png) no-repeat 10px 5px;  
 }
 #nav .news a:hover, #nav .news_set a, #nav .news_set a:hover {
   background-color: #005a9c ;
-  color: #fff;
-  background: #005a9c url(../after/img/newsicon_hover.png) no-repeat 10px 0; 
+  color: #fff !important;
+  background: #005a9c url(../after/img/newsicon_hover.png) no-repeat 10px 5px; 
 }
 
 #nav .facts a:hover, #nav .facts_set a,  #nav .facts_set a:hover {
   background-color: #005a9c ;
-  color: #fff;
-  background: #005a9c url(../after/img/factsicon_hover.png) no-repeat 10px 0; 
+  color: #fff !important;
+  background: #005a9c url(../after/img/factsicon_hover.png) no-repeat 10px 5px; 
 }
 #nav .survey a:hover, #nav .survey_set a, #nav .survey_set a:hover{
   background-color: #005a9c;
-  color: #fff;
-  background: #005a9c url(../after/img/surveyicon_hover.png) no-repeat 10px 0; 
+  color: #fff !important;
+  background: #005a9c url(../after/img/surveyicon_hover.png) no-repeat 10px 5px; 
 }
 
 
