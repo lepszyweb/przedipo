@@ -1,6 +1,6 @@
 @import url(meta.css);
 /*
-primary color #005a9c
+primary color #107684
 
 */
 /*General Positioning*/
@@ -34,29 +34,29 @@ a img {
 }
 
 a {
-  color: #005a9c /*#ba2710*/;
+  color: #107684 /*#ba2710*/;
 }
 
 /* shows by colour that a link has been visited */
 
 a:visited {
-  color: #005a9c /*#ba2710*/;
+  color: #107684 /*#ba2710*/;
 }
 
 a:hover {
-  color: #005a9c /*#ba2710*/;
+  color: #107684 /*#ba2710*/;
 }
 
 /* gives a clearer link highlight of the focussed link for keyboard users */
 
 select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
   color: #fff !important;
-  background-color: #005a9c /*#ba2710*/ !important;
+  background-color: #107684 /*#ba2710*/ !important;
 }
 
 a:active, a:focus {
   color: #fff !important;
-  background-color: #005a9c /*#ba2710*/ !important;
+  background-color: #107684 /*#ba2710*/ !important;
 }
 
 /* @end */
@@ -167,7 +167,7 @@ input[type=submit] {
 	text-decoration: none;
 	padding: 15px 10px 15px 75px;
 	display: block;
-	color: #005a9c;
+	color: #107684;
 	margin: 10px 0 10px;
 	text-transform: uppercase;
 }
@@ -176,7 +176,7 @@ input[type=submit] {
 
 
 #nav a:hover {
-  color: #005a9c /*#ba2710*/ !important;
+  color: #107684 /*#ba2710*/ !important;
 }
 
 #nav a:active {
@@ -235,23 +235,23 @@ input[type=submit] {
 }
 
 #nav .home a:hover, #nav .home_set a, #nav .home_set a:hover {
-  background-color: #005a9c ;
+  background-color: #107684 ;
   color: #fff !important;
   background: #005a9c url(../after/img/homeicon_hover.png) no-repeat 10px 5px;  
 }
 #nav .news a:hover, #nav .news_set a, #nav .news_set a:hover {
-  background-color: #005a9c ;
+  background-color: #107684 ;
   color: #fff !important;
   background: #005a9c url(../after/img/newsicon_hover.png) no-repeat 10px 5px; 
 }
 
 #nav .facts a:hover, #nav .facts_set a,  #nav .facts_set a:hover {
-  background-color: #005a9c ;
+  background-color: #107684 ;
   color: #fff !important;
   background: #005a9c url(../after/img/factsicon_hover.png) no-repeat 10px 5px; 
 }
 #nav .survey a:hover, #nav .survey_set a, #nav .survey_set a:hover{
-  background-color: #005a9c;
+  background-color: #107684;
   color: #fff !important;
   background: #005a9c url(../after/img/surveyicon_hover.png) no-repeat 10px 5px; 
 }
@@ -352,12 +352,12 @@ input[type=submit] {
 }
 
 #content #contentmain .news h2 a:hover {
-  color: #005a9c /*#ba2710*/;
+  color: #107684 /*#ba2710*/;
   background-image: none;
 }
 
 #content #contentmain .news h2 a:focus {
-  color: #005a9c /*#ba2710*/;
+  color: #107684 /*#ba2710*/;
 }
 
 #content #contentmain .news p {
@@ -797,7 +797,7 @@ label.foroption {
   font-style: italic;
 }
 
-.red {color: #cc0000;}
+.red {color: #DF1264;}
 
 #main .headline {
   margin-top: 0px;
@@ -812,8 +812,8 @@ label.foroption {
 }
 
 .highlight {
-  border-left: 3px solid #cc0000;
-  border-bottom: 1px solid #cc0000;
+  border-left: 3px solid #DF1264;
+  border-bottom: 1px solid #DF1264;
 }
 
 p#submissionsuccess {
@@ -827,12 +827,12 @@ p#submissionsuccess {
 }
 
 #submissionerrors {
-  border: 3px solid #cc0000;
+  border: 3px solid #DF1264;
 }
 
 #submissionerrors p strong{
   color: #fff;
-  background-color: #cc0000;
+  background-color: #DF1264;
   padding: 1px 3px;
 }
 

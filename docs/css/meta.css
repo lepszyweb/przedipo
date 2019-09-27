@@ -30,7 +30,7 @@ body {
 }
 
 #meta-header a, #meta-header a, #meta-header a {
-  color: #17416a;
+  color: #7D4594;
 }
 
 #meta-header a:hover, #meta-header a:focus, #meta-header a:active {
@@ -39,7 +39,7 @@ body {
 }
 
 #meta-footer a:hover, #meta-footer a:focus, #meta-footer a:active {
-  color: #17416a; 
+  color: #7D4594; 
   background-color: #e6e6e6;
 }
 
@@ -66,7 +66,7 @@ body {
   width: auto;
   padding: 5px;
   color: #ffffff;
-  background: #cc0000;
+  background: #107684;
 }
 
 #pagetitle {
@@ -74,9 +74,9 @@ float: left;
 }
 #meta-header h1 {
   float: left;
-  margin: 0 10px 5px 0;
+  margin: 0 0 -.15em 0;
   padding: 0;
- 
+ font-family: 'Lato', sans-serif;
 }
 
 #meta-header p.subline {
@@ -84,17 +84,20 @@ float: left;
   clear: left;
   margin: 0 10px 1.5em 0;
   padding: 0;
+ font-family: 'Lato', sans-serif;  
+ color: #4d4d4d;
 /*  width: 85%;*/
 }
 
 
 #logos {
   float: left;
-  margin:-1em 0 0 0;
+  margin:-1em 0 0 1em;
 }
 
 #logos img {
   border: none;
+  margin-right: 1em;
 }
 
 .subhead {
@@ -132,7 +135,7 @@ float: left;
 
 #meta-footer {
   padding: 1em;
-  background: #17416a;
+  background: #7D4594;
   color: #e6e6e6;  
   font-size: .75em;
 }
@@ -193,11 +196,11 @@ float: left;
 }
 
 #mnav.accessible {
-  background-color: #669900;
+  background-color:  #107684;
 }
 
 #mnav.inaccessible {
-  background-color: #c00;
+  background-color: #DF1264;
 }
 
 #mnav ul {
@@ -259,7 +262,7 @@ float: left;
 }
 
 #mnav a:focus, #manv a:active, #mnav a.annotoggle:focus, #mnav a.annotoggle:active {
-  background-color: #cc0000;
+  background-color: #107684;
   color: #ffffff;
 }
 
@@ -274,7 +277,7 @@ float: left;
   height: 2.75em;
   color: #333;
   padding: 0  0 0 30px;
-  background: #f5f565 url('../img/anno.png') no-repeat 5px center;
+  background: #f08f1f url('../img/anno.png') no-repeat 5px center;
   border: 1px solid #999;
   border-left: 0;
   border-color: #999 #444 #444 #fff;
@@ -372,13 +375,13 @@ float: left;
 }
 
 .subnav li.accessible {
-  background-color: #470;
+  background-color: #107684;
   -webkit-border-bottom-left-radius: 4px !important;
   -moz-border-radius-bottomleft: 4px !important;
 }
 
 .subnav li.inaccessible {
-  background-color: #c00;
+  background-color: #DF1264;
 }
 
 .subnav li.inaccessible {
@@ -391,7 +394,7 @@ float: left;
 }
 
 .subnav li.accessible {
-  background-color: #470;
+  background-color: #107684;
   -webkit-border-bottom-left-radius: 4px !important;
   -moz-border-radius-bottomleft: 4px !important;
   border: 1px solid #444;
@@ -405,7 +408,7 @@ float: left;
 }
 
 .subnav li.inaccessible {
-  background-color: #c00;
+  background-color: #DF1264;
   border-left: 1px solid #444;
 }
 

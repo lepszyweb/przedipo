@@ -95,7 +95,7 @@ pre {
   position: absolute !important;
   top: .5em !important;
   left: 0 !important;
-  border: dashed blue !important;
+  border: dashed #634586 !important;
   border-width: 1px 0 0 !important;
   margin-left: -1.5em !important;
   width: 1.8em !important;
@@ -109,8 +109,8 @@ pre {
   min-height: 1em !important;
   height: 1.1em !important;
   width: 1.6em !important;
-  color: #22c !important;
-  border: solid 1px blue !important;
+  color: #634586 !important;
+  border: solid 1px #634586 !important;
   border-top-width: 2px !important;
   line-height: 1em !important;
   text-align: center !important;
@@ -135,7 +135,7 @@ pre {
 
 .active #lightbox_container {
   position: relative;
-  border: solid 1px #22c;
+  border: solid 1px #634586;
   margin: 0 auto;
   background: white;
   padding: 1em;
@@ -145,11 +145,11 @@ pre {
 .active #lightbox_container h3 {
   margin: -1em -1em 0;
   padding: 0.2em 1em;
-  background: #005a9c;
+  background: #7D4594;
   font-size: 100%;
   color: #fff;
 }
 
 .active #lightbox_container h3:focus {
-  outline: solid .2em #22c;
+  outline: solid .2em #634586;
 }

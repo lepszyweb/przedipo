@@ -102,6 +102,7 @@ if(isset($submit)) {
         background: #a9b8bf;
       }
 		</style>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap&subset=latin-ext" rel="stylesheet">			
 		<link href="../css/meta.css" rel="stylesheet" type="text/css">	
 		<script type="text/javascript">
       function ChangeColor(id, colour){
@@ -121,13 +122,12 @@ if(isset($submit)) {
 	<body text="#000000" bgcolor="d7d7cd" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#226c8e" vlink="#226c8e" alink="226c8ee">
 	
 		<div id="meta-header">
-			<p id="skipnav"><a href="#page">Przejdź do demo strony niedostępnej</a></p>
-
-			<p id="logos"><a href="http://www.w3.org/" title="W3C Home"><img alt="W3C logo" src="../img/w3c.png" height="48" width="72"></a><a href="http://www.w3.org/WAI/" title="WAI Home"><img alt="Web Accessibility Initiative (WAI) logo" src="../img/wai.png" height="48"></a></p>
-			
-			<h1><span class="subhead">Niedostępna strona Ankieta </span><span class="hidden"> -</span> Demo Przed i Po modernizacji</h1>
-			<p class="subline">Ulepsz witrynę, używając Web Content Accessibility Guidelines (WCAG) 2.1</p>
-			
+     <p id="skipnav"><a href="#page">Przejdź na początek demo strony</a></p>
+	  <p id="logos"><a href="https://lepszyweb.pl"><img alt="LepszyWeb.pl. Pracownia Dostępności Cyfrowej" src="../img/logo_lepszyweb_na-pp.png" ></a></p>
+		<div id="pagetitle">
+		  <h1>Demo Przed i Po: Niedostępna strona Ankieta</h1>
+		   <p class="subline">Ulepsz witrynę, stosując Web Content Accessibility Guidelines (WCAG) 2.1</p>
+		</div>
 			<div id="mnav" class="inaccessible">
 				<ul>
 					<li class="first"><a href="../index.html">Przegląd</a></li>
@@ -140,7 +140,7 @@ if(isset($submit)) {
 								<li class="inaccessible"><strong>Niedostępna:</strong><a class="page current"><span class="hidden">Niedostępna </span>strona Ankieta</a><a href="./reports/survey.html" class="report"><span class="hidden">Niedostępna strona Ankieta </span> Raport</a></li>
 								<li class="accessible"><strong>Dostępna:</strong><a href="../after/survey.html" class="page"><span class="hidden">Dostępna </span>strona Ankieta</a><a href="../after/reports/survey.html" class="report"><span class="hidden">Dostępna strona Ankieta </span> Raport</a></li>
 							</ul>
-							<a href="./annotated/survey.html" class="annotoggle">Pokaż <br>adnotacje</a>
+							<a href="./annotated/survey.html" class="annotoggle">Pokaż <br>komentarze</a>
 						</div>
 					</li>
 					<li><a href="template.html">Szablon</a></li>
@@ -738,9 +738,9 @@ if(isset($submit)) {
 										</tr>
 										<tr height="36">
 											<td width="10"> </td>
-											<td align="right" class="footer" >
-												<a rel="Copyright" href="https://fundacja.joomla.pl">Copyright</a> &copy; 2018 <a href="https://dostepny.joomla.pl/">Kuźnia Dostępnych Stron</a>
-												<a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 2012 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&reg;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>)</td>
+                      <td align="right" class="footer" >
+                        <a rel="Copyright" href="https://lepszyweb.pl">LepszyWeb.pl. Pracownia Dostępności Cyfrowej</a> &copy; 2019 &nbsp;&nbsp;&nbsp;<a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 2012 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&reg;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>)
+                      </td>
 											<td width="10"> </td>
 										</tr>
 									</table>
@@ -758,10 +758,16 @@ if(isset($submit)) {
 			</table>
 		</div>
     <div id="meta-footer" class="meta">
-      <hr>
-      <p><strong>Status:</strong> 20 February 2012 (see <a href="../changelog.html">changelog</a>) <br>Editors: <a href="http://www.w3.org/People/shadi/">Shadi Abou-Zahra</a> and the <a href="http://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. <br>Developed with support from <a href="http://www.w3.org/WAI/TIES/"><acronym title="Web Accessibility Initiative: Training, Implementation, Education, Support">WAI-TIES</acronym></a> and <a href="http://www.w3.org/WAI/WAI-AGE/"><acronym title="Web Accessibility Initiative: Ageing Education and Harmonisation">WAI-AGE</acronym></a> projects, co-funded by the European Commission <acronym title="Information Society Technologies">IST</acronym> Programme. [see <a href="../acks.html">Acknowledgements</a>]</p>
-      <p>[<a href="http://www.w3.org/WAI/sitemap.html" shape="rect">WAI Site Map</a>] [<a href="http://www.w3.org/WAI/sitehelp.html" shape="rect">Help with WAI Website</a>] [<a href="http://www.w3.org/WAI/search.php" shape="rect">Search</a>] [<a href="http://www.w3.org/WAI/contacts" shape="rect">Contacting WAI</a>] <br><strong>Feedback welcome to <a href="mailto:wai-eo-editors@w3.org" shape="rect">wai-eo-editors@w3.org</a></strong> (a publicly archived list) or <a href="mailto:wai@w3.org" shape="rect">wai@w3.org</a> (a WAI staff-only list).</p>
-      <div class="copyright"><p><a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 2012 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&reg;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>), All Rights Reserved. W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a>, <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> and <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/copyright-software">software licensing</a> rules apply. Your interactions with this site are in accordance with our <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Public">public</a> and <a href="http://www.w3.org/Consortium/Legal/privacy-statement#Members">Member</a> privacy statements.</p></div>
+      <hr />
+      <div class="meta-footer-in">
+        <p><strong>Przed i Po</strong> wydanie polskie. Copyright <a href="https://lepszyweb.pl">LepszyWeb.pl. Pracownia Dostępności Cyfrowej</a> &copy; 2019.</p>
+        <div class="copyright">
+          <p>Niniejsza witryna jest unowocześnioną wersją witryny <a href="https://www.w3.org/WAI/demos/bad/"><span lang="en">Before and After Demonstration (BAD)</span></a>  <a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> &copy; 2012 <a href="http://www.w3.org/">World Wide Web Consortium</a>, (<a href="http://www.lcs.mit.edu/">Massachusetts Institute of Technology</a>, <a href="http://www.ercim.org/">European Research Consortium for Informatics and Mathematics</a>, <a href="http://www.keio.ac.jp/">Keio University</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>). All Rights Reserved.</p>
+          <p><a href="https://www.w3.org/WAI/demos/bad/">Oryginalna wersja BAD</a> została opracowana <b>pod redakcją</b> <a href="http://www.w3.org/People/shadi/">Shadi Abou-Zahra</a> oraz <a href="http://www.w3.org/WAI/EO/" title="Grupy Roboczej Edukacji i Informacji" lang="en">Education and Outreach Working Group (EOWG)</a> dzięki wsparciu projektów <a href="http://www.w3.org/WAI/TIES/"><abbr title="Web Accessibility Initiative: Training, Implementation, Education, Support">WAI-TIES</abbr></a> oraz <a href="http://www.w3.org/WAI/WAI-AGE/"><abbr title="Web Accessibility Initiative: Ageing Education and Harmonisation">WAI-AGE</abbr></a> i współfinansowana przez Komisję Europjską w ramach programu <abbr lang="en" title="Information Society Technologies">IST</abbr>. Zobacz <a href="acks.html">Podziękowania</a>. Opracowanie wersji polskiej: Stefan Wajda</p> 
+          <p>Witryna jest udostępniana na warunkach <a href="http://www.w3.org/Consortium/Legal/copyright-software">W3C® Software License</a> z nadzieją, że będzie przydatna, ale <strong>bez jakiejkolwiek gwarancji</strong>; nawet domyślnej gwarancji <strong>przydatności handlowej lub przydatności do określonych celów</strong>.</p>
+        </div>	  
+        <p><strong>Status:</strong> Ostatnia aktualizacja 20 sierpnia 2019. (zobacz <a href="./changelog.html">dziennik zmian</a>) </p>
+      </div>
     </div>
   </body>
 </html>
