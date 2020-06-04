@@ -373,18 +373,18 @@
         <h3>Uwaga 01: Obraz tekstu bez tekstu alternatywnego stosowany jako nagłówek</h3>
         <p>Jest to obraz tekstu, który wizualnie wygląda jak nagłówek, ale nie jest oznaczony jako nagłówek. Nie ma też alternatywy tekstowej. </p><pre><code>&lt;p style=&quot;padding-top:5px;&quot;&gt;&lt;img src=&quot;../img/headline_ticket_offers.png&quot; border=&quot;0&quot;&gt;&lt;/p&gt;</code></pre><p>Uwaga: Bardziej preferowane jest prezentowanie tekstu, który jest wizualnie stylizowany za pomocą CSS, a nie obrazów tekstu.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F71.html">Błąd F71</a>:Niespełnienie kryterium sukcesu 1.1.1 ze względu na używanie podobieństw tekstu w celu przedstawienia tekstu bez zapewniania tekstu alternatywnego</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
           <dd>
             <ul>
               <li><a href="https://www.w3.org/TR/WCAG20-TECHS/F2.html">Błąd F2</a>: Niespełnienie kryterium sukcesu 1.3.1 z powodu użycia zmian w prezentacji tekstu w celu przekazania informacji bez użycia odpowiedniego znacznika lub tekstu</li>
               <li><a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html">Technika HTML H42</a>: Używanie h1-h6 do identyfikacji nagłówków</li>
             </ul>
           </dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#resize-text">Kryterium sukcesu 1.4.4 - Zmiana rozmiaru tekstu</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#resize-text">Kryterium sukcesu 1.4.4 - Zmiana rozmiaru tekstu</a></dt>
           <dd>Sugerowana technika: Unikanie stosowania tekstu na obrazach rastrowych (przyszły link)</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Kryterium sukcesu 1.4.5 - Obrazy tekstu</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#images-of-text">Kryterium sukcesu 1.4.5 - Obrazy tekstu</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/C22.html">Technika CSS C22</a>: Używanie CSS do kontrolowania wizualnej prezentacji tekstu</dd>
         </dl>
         <p><a href="#annot_link_01">Wróć do demo</a></p>
@@ -393,7 +393,7 @@
         <h3>Uwaga 02: Nagłówki kolumn tabeli nie zostały oznaczone</h3>
         <p>Nagłówki tabel są oznaczone kolorowym tłem, ale nie zostały oznaczone semantycznie za pomocą elementu <code>th</code>. Ponadto tytuł tabeli nie został powiązany z tabelą.</p><pre><code>&lt;td&gt;&lt;b&gt;&lt;font color="41545D"&gt;Les Garçons de la Plage&lt;/font&gt;&lt;/b&gt;&lt;/td&gt; </code></pre>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
           <dd>
             <ul>
               <li><a href="https://www.w3.org/TR/WCAG20-TECHS/F43.html">Błąd F43</a>: Niespełnienie kryterium sukcesu 1.3.1 z powodu używania znaczników strukturalnych w sposób, który nie odzwierciedla relacji w treści</li>
@@ -407,7 +407,7 @@
         <h3>Uwaga 03: Używanie CSS do przekazywania znaczenia semantycznego</h3>
         <p>Tekst &quot;specjalna oferta&quot; został pogrubiony wizualnie przy użyciu CSS, a nie semantycznie przy użyciu tego elementu <code>strong</code>.</p><pre><code>&lt;big style="font-weight:bold;"&gt;specjalna oferta&lt;/big&gt;</code></pre>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F2.html">Błąd F2</a>: Niespełnienie kryterium sukcesu 1.3.1 z powodu użycia zmian w prezentacji tekstu w celu przekazania informacji bez użycia odpowiedniego znacznika lub tekstu</dd>
         </dl>
         <p><a href="#annot_link_03">Wróć do demo</a></p>
@@ -416,11 +416,11 @@
         <h3>Uwaga 04: Obraz tekstu z niepoprawną alternatywą tekstową</h3>
         <p>Alternatywna tekstowa dla tego obrazu nie zawiera numeru telefonu &quot;(1) 269 M-U-Z-Y-K-A&quot; wyświetlanego graficznie.</p><pre><code>&lt;img src=&quot;../img/telefon_lightgrey_bg.png&quot; alt=&quot;numer muzycznej linii telefonicznej&quot; border=&quot;0&quot; valign=&quot;absmiddle&quot;&gt;</code></pre>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F30.html">Błąd F30</a>: Niespełnienie kryterium sukcesu 1.1.1 i 1.2.1 z powodu użycia alternatyw tekstowych, które nie są alternatywne (np. nazwy plików lub tekstu zastępczego)</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#resize-text">Kryterium sukcesu 1.4.4 - Zmiana rozmiaru tekstu</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#resize-text">Kryterium sukcesu 1.4.4 - Zmiana rozmiaru tekstu</a></dt>
           <dd>Sugerowana technika: Unikanie stosowania tekstu na obrazach rastrowych (przyszły link))</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#images-of-text">Kryterium sukcesu 1.4.5 - Obrazy tekstu</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#images-of-text">Kryterium sukcesu 1.4.5 - Obrazy tekstu</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/C22.html">Technika CSS 22</a>: Używanie CSS do kontrolowania wizualnej prezentacji tekstu</dd>
         </dl>
         <p><a href="#annot_link_04">Wróć do demo</a></p>
@@ -429,7 +429,7 @@
         <h3>Uwaga 05: Tabela danych bez struktury semantycznej</h3>
         <p>Tabela nie jest identyfikowana za pomocą elementu <code>caption</code>, a komórki nagłówka nie są oznaczone lub powiązane z komórkami danych.</p><pre><code>&lt;table ...&gt;<br />&lt;tr&gt;<br />&lt;td&gt;&lt;b&gt;DOROŚLI&lt;/b&gt;&lt;/td&gt;<br />&lt;td&gt;&lt;b&gt;PS&lt;/b&gt;&lt;/td&gt;<br />&lt;td&gt;&lt;b&gt;TS&lt;/b&gt;&lt;/td&gt;<br />&lt;td&gt;&lt;b&gt;WS&lt;/b&gt;&lt;/td&gt;<br />&lt;td&gt;&lt;b&gt;MS&lt;/b&gt;&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;tr&gt;<br />&lt;td&gt;&lt;b&gt;Obelisks&lt;/b&gt;&lt;/td&gt;<br />&lt;td&gt;&lt;b&gt;99,99 PLN&lt;/b&gt;&lt;/td&gt;<br />&lt;td&gt;&lt;b&gt;99,99 PLN&lt;/b&gt;&lt;/td&gt;<br />&lt;td&gt;&lt;b&gt;99,99 PLN&lt;/b&gt;&lt;/td&gt;<br />&lt;td&gt;&lt;b&gt;99,99 PLN&lt;/b&gt;&lt;/td&gt;<br />&lt;/tr&gt;</code></pre>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
           <dd>
             <ul>
               <li><a href="https://www.w3.org/TR/WCAG20-TECHS/H51.html">Technika HTML H51</a>: Używanie znaczników tabel do prezentacji informacji tabelarycznych</li>
@@ -445,7 +445,7 @@
         <h3>Uwaga 06: Skróty używane do wskazania opcji miejsc nie są wyjaśnione</h3>
         <p>Akronimy &quot;PS&quot;, &quot;TS&quot;, &quot;WS&quot; i &quot;MS&quot; używane do wskazania opcji miejsc nie są rozszerzane, ani w inny sposób objaśniane.</p><pre><code>&lt;td&gt;&lt;b&gt;PS&lt;/b&gt;&lt;/td&gt;</code></pre>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#abbreviations">Kryterium sukcesu 3.1.4 - Skróty</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#abbreviations">Kryterium sukcesu 3.1.4 - Skróty</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G102.html">Technika ogólna G102</a>: Udostępnienie rozszerzenia lub wyjaśnienia skrótu </dd>
         </dl>
         <p><a href="#annot_link_06">Wróć do demo</a></p>
@@ -455,9 +455,9 @@
         <h3>Uwaga 07: Niewystarczający kontrast kolorów</h3>
         <p>Współczynnik kontrastu między kolorem pierwszego planu (# 41545D) a kolorem tła (# A9B8BF) jest zbyt niski, aby niektórzy mogli je rozróżnić.</p><pre><code>{color:#41545D; background-color:#A9B8BF;"}</code></pre>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">Kryterium sukcesu - 1.4.3 - Kontrast (minimalny)</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#contrast-minimum">Kryterium sukcesu - 1.4.3 - Kontrast (minimalny)</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G18.html">Technika ogólna G18</a>: Zapewnienie, że istnieje kontrast wynoszący co najmniej 4,5: 1 między tekstem (i obrazami tekstu) a tłem za tekstem</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced">Kryterium sukcesu - 1.4.6 - Wzmocniony kontrast</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#contrast-enhanced">Kryterium sukcesu - 1.4.6 - Wzmocniony kontrast</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G17.html">Technika ogólna G17</a>: Zapewnienie, że istnieje kontrast wynoszący co najmniej 7: 1 między tekstem (i obrazami tekstu) a tłem za tekstem</dd>
         </dl>
         <p><a href="#annot_link_07">Wróć do demo</a></p>
@@ -467,7 +467,7 @@
         <h3>Uwaga08: Nie ma znaczników semantycznych i tekst trudno odczytać</h3>
         <p>Nagłówek nie jest oznaczony jako taki, lista nie jest oznaczona jako taka, a tekst jest trudny do odczytania z powodu obustronnego wyrównania (justowania), użycia wielkich liter, użycia podkreśleń i ciasnych odstępów między wierszami.</p><pre><code>&lt;p id="terms" class="annot_link_parent" align="justify"&gt;&lt;b&gt;&lt;div style="text-align: center;"&gt;&lt;font size="4"&gt;Zasady i warunki użytkowania serwisu Światła Miasta&lt;/font&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;[1] Zgadzasz się, że dzwoniąc na infolinię... etc </code></pre>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
           <dd>
             <ul>
               <li><a href="https://www.w3.org/TR/WCAG20-TECHS/G115.html">Technika ogólna G115</a>: Używanie znaczników semantycznych do oznaczania struktury </li>
@@ -475,7 +475,7 @@
               <li><a href="http://www.w3.org/TR/WCAG20-TECHS/H48">Technika HTML H48</a>: Używanie ol, ul i dl dla list lub grup łączy</li>
             </ul>
           </dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation">Kryterium sukcesu 1.4.8 - Prezentacja wizualna</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#visual-presentation">Kryterium sukcesu 1.4.8 - Prezentacja wizualna</a></dt>
           <dd>
             <ul>
               <li><a href="https://www.w3.org/TR/WCAG20-TECHS/F88.html">Błąd F88</a>: Niespełnienie kryterium sukcesu 1.4.8 z powodu użycia tekstu wyjustowanego (wyrównanego do lewego i prawego marginesu)</li>
@@ -483,7 +483,7 @@
               <li>Używanie wielkich i małych liter zgodnie z konwencją pisowni w języku tekstowym (przyszły link)</li>
             </ul>
           </dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#readable">Wytyczna 3.1 - Czytelność</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#readable">Wytyczna 3.1 - Czytelność</a></dt>
           <dd>
             <ul>
               <li>Sugerowana technika: Unikanie tekstu wyrównanego do środka (przyszły link)</li>

@@ -583,7 +583,7 @@ if (!isset($submit)) {?>
         <h3>Uwaga 02: Przyciski radiowe są pogrupowane w ramach kodu</h3>
 		<p>Przyciski radiowe pogrupowane elementem <code>fieldset</code> i opisane za pomocą elementu <code>legend</code>.</p><p class="code"><code>&lt;fieldset id=&quot;park&quot;&gt; &lt;legend&gt;Favorite Park&lt;/legend&gt; ... &lt;/fieldset&gt;</code></p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Kryterium sukcesu 3.3.2 - Etykiety lub instrukcje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#labels-or-instructions">Kryterium sukcesu 3.3.2 - Etykiety lub instrukcje</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/H71.html">Technika HTML H71</a>: Zapewnienie opisu dla grup formantów formularzy przy użyciu elementów fieldset i legendy</dd>
         </dl>
         <p><a href="#annot_link_02">Wróć do demo</a></p>
@@ -592,7 +592,7 @@ if (!isset($submit)) {?>
         <h3>Uwaga 03: Przycisk radiowy jest powiązany z jego etykietą</h3>
 		<p>Przycisk radiowy jest powiązany z etykietą &quot;none&quot;  przy użyciu elementu <code>label</code>.</p><p class="code"><code>&lt;input type=&quot;radio&quot; name=&quot;res&quot; id=&quot;nn&quot; value=&quot;1&quot;&gt; &lt;label for="nn"&gt;Żaden&lt;/label&gt; </code></p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Kryterium sukcesu 3.3.2 - Etykiety lub instrukcje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#labels-or-instructions">Kryterium sukcesu 3.3.2 - Etykiety lub instrukcje</a></dt>
           <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G162.html">Technika ogólna G162</a>: Pozycjonowanie etykiet w celu maksymalizacji przewidywalności relacji</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H44.html">Technika HTML H44</a>: Używanie elementów etykiet do kojarzenia etykiet tekstowych z formantami formularzy</li></ul></dd>
         </dl>
         <p><a href="#annot_link_03">Wróć do demo</a></p>
@@ -601,7 +601,7 @@ if (!isset($submit)) {?>
         <h3>Uwaga 04: Pole wyboru ma tytuł</h3>
 		<p>Pole wyboru jest oznaczone za pomocą tego elementu <code>title</code>.</p><p class="code"><code>&lt;select name=&quot;cc&quot; id=&quot;cc&quot; title=&quot;Światła Miasta&quot;&gt; </code></p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions">Kryterium sukcesu 3.3.2 - Etykiety lub instrukcje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#labels-or-instructions">Kryterium sukcesu 3.3.2 - Etykiety lub instrukcje</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/H65.html">Technika HTML H65</a>: Używanie atrybutu title do identyfikowania formantów formularzy, gdy nie można użyć elementu etykiety</dd>
         </dl>
         <p><a href="#annot_link_04">Wróć do demo</a></p>
@@ -610,9 +610,9 @@ if (!isset($submit)) {?>
         <h3>Uwaga 05: Pole wyboru z ulepszoną funkcjonalnością klawiatury</h3>
 		<p>Pozycje na tej długiej liście są pogrupowane i posortowane według miast, a nie według kraju, aby ułatwić efektywne korzystanie z klawiatury.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard">Kryterium sukcesu 2.1.1 - Klawiatura</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#keyboard">Kryterium sukcesu 2.1.1 - Klawiatura</a></dt>
           <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G202.html">Technika ogólna G202</a>: Zapewnienie kontroli klawiatury dla wszystkich funkcji</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H91.html">Technika HTML H91</a>: Korzystanie z formantów formularzy HTML i linków</li><li>Używanie unikatowych kombinacji liter, aby rozpocząć każdy element listy (przyszły link)</li></ul></dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks">Kryterium sukcesu 2.4.1 - Możliwość pominięcia bloków</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#bypass-blocks">Kryterium sukcesu 2.4.1 - Możliwość pominięcia bloków</a></dt>
           <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H69.html">Technika HTML H69</a>: Dostarczanie elementów nagłówków na początku każdej sekcji treści</li><li>Zapewnienie dostępu do klawiatury dla ważnych linków i formantów formularzy (przyszły link)</li></ul></dd>
         </dl>
         <p><a href="#annot_link_05">Wróć do demo</a></p>
@@ -621,9 +621,9 @@ if (!isset($submit)) {?>
         <h3>Uwaga 06: Znacząca sekwencja czytania</h3>
 		<p>Sekwencja etykiet i pól wprowadzania danych ma sens, gdy są odczytywane w kolejności, w jakiej pojawiają się w kodzie. Pola wejściowe są powiązane z ich etykietami za pomocą elementu <code>label</code>.</p><p class="code"><code>&lt;p id=&quot;namenewsletter&quot; class=&quot;input&quot;&gt;<br>&lt;label for=&quot;n&quot;&gt;Nazwa:&lt;/label&gt;<br>&lt;input type=&quot;radio&quot; name=&quot;t&quot; id=&quot;mr&quot; value&quot;mr&quot; title=&quot;title&quot;&gt;&lt;label for=&quot;mr&quot;&gt;Pan&lt;/label&gt;<br>&lt;input type&quot;radio&quot; name=&quot;t&quot; id=&quot;mrs&quot; value=&quot;mrs&quot; title=&quot;title&quot;&gt;&lt;label for=&quot;mrs&quot;&gt;Pani&lt;/label&gt;<br>&lt;input type=&quot;text&quot; name=&quot;n&quot; id=&quot;n&quot; size=&quot;30&quot; style=&quot;margin-left: 0.5em;&quot;&gt;&lt;/p&gt;<br>&lt;p id=&quot;emailinput&quot; class=&quot;input&quot; style=&quot;width: 16em; float: left; margin-top: 0.5em;&quot;&gt;<br>&lt;input type=&quot;text&quot; name=&quot;em&quot; id=&quot;em&quot; size=&quot;20&quot;&gt;&lt;br&gt;&lt;label for=&quot;em&quot;&gt;Adres e-mail&lt;/label&gt;&lt;/p&gt;<br>&lt;p id=&quot;emailvalid&quot; class=&quot;input&quot; style=&quot;width: 16em; float: left; margin-top: 0.5em;&quot;&gt;<br>&lt;input type=&quot;text&quot; name=&quot;ev&quot; id=&quot;ev&quot; size=&quot;20&quot;&gt;&lt;br&gt;&lt;label for=&quot;ev&quot;&gt;Powtórz adres e-mail&lt;/label&gt;&lt;/p&gt;</code></p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence">Kryterium sukcesu 1.3.2 - Zrozumiała kolejność</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#meaningful-sequence">Kryterium sukcesu 1.3.2 - Zrozumiała kolejność</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G57.html">Technika ogólna G57</a>: porządkowanie treści w znaczącej kolejności</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-order">Kryterium sukcesu 2.4.3 - Kolejność fokusa</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#focus-order">Kryterium sukcesu 2.4.3 - Kolejność fokusa</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G59.html">Technika ogólna G59</a>: Umieszczanie elementów interaktywnych w kolejności następującej po sekwencjach i relacjach w treści</dd>
         </dl>
         <p><a href="#annot_link_06">Wróć do demo</a></p>
@@ -632,7 +632,7 @@ if (!isset($submit)) {?>
         <h3>Uwaga 07: Dane tabeli zostały poprawnie uporządkowane</h3>
 		<p>Dane w tej tabeli są uporządkowane przy użyciu odpowiednich struktur tabel, takich jak elementy <code>th</code> i <code>td</code>.</p><p class="code"><code>&lt;th scope=&quot;row&quot;&gt;Nie lubię&lt;th&gt;<br>...<br>&lt;th scope=&quot;row&quot;&gt;Nie lubię&lt;th&gt;</code></p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
           <dd>
 			  <ul>
 				  <li><a href="https://www.w3.org/TR/WCAG20-TECHS/G140.html">Technika ogólna G140</a>: Oddzielanie informacji i struktury od prezentacji w celu umożliwienia różnych prezentacji</li>

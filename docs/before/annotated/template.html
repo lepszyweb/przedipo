@@ -311,9 +311,9 @@
         <h3>Uwaga 01: Tytuł i układ strony powoduje zamieszanie</h3>
 <p>Ta i wszystkie inne strony są zatytułowane jako "Witamy w Światłach Miasta!" za pomocą elementu <code>title</code>, co powoduje, że dla niektórych czytelników  jest niejasne, na której stronie się znajdują. Ponadto układ strony wykorzystuje również głęboko zagnieżdżone elementy <code>table</code>  (do 5 poziomów w samym szablonie), które mogą powodować zamieszanie i dezorientację niektórych czytelników.</p><pre><code>&lt;title&gt;Witamy w Światłach Miasta!&lt;/title&gt;</code></pre><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
           <dd>Sugerowana technika: Używanie CSS zamiast tabel do układu strony (przyszły link)</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#page-titled">Kryterium sukcesu 2.4.2 - Tytuły stron</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#page-titled">Kryterium sukcesu 2.4.2 - Tytuły stron</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F25.html">Błąd F25</a>: Niespełnienie kryterium sukcesu 2.4.2 ze względu na tytuł strony internetowej, która nie identyfikuje treści</dd>
         </dl>
         <p><a href="#annot_link_01">Wróć do demo</a></p>
@@ -322,7 +322,7 @@
         <h3>Uwaga 02: Obraz z nieprawidłową alternatywą tekstu</h3>
 <p>Tekst alternatywny dla tego obrazu  z tekstem jest zbyt obszerny i nie jest równoważny z celem obrazu. Tekst alternatywny jest następujący:</p><pre><code>&lt;img src=&quot;top_logo.gif&quot; alt=&quot;Niebieska kropka z białą literą 'M'. Za logo znajduje się ciemnoniebieski baner z napisem 'Światła Miasta', który jest nazwą portalu internetowego. Dalej umieszczono hasło portalu, 'Twoje okno na miasto', napisane pismem odręcznym lekko pochylone w poprzek górnego paska.&quot; ... &gt;</code></pre><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F30.html">Błąd 30</a>: Niespełnienie kryterium sukcesu 1.1.1 i 1.2.1 z powodu użycia alternatyw tekstowych, które nie są alternatywne (np. nazwy plików lub tekstu zastępczego)</dd> 
         </dl>
         <p><a href="#annot_link_02">Wróć do demo</a></p>
@@ -331,9 +331,9 @@
         <h3>Uwaga 03: Automatyczne przekierowanie strony po zmianie</h3>
 <p>Wybranie pozycji z rozwijanego menu powoduje automatyczne przekierowanie użytkownika na inną stronę. Jest to mylące i dezorientujące dla niektórych użytkowników, zwłaszcza użytkowników klawiatury, którzy próbują przejść z jednego elementu do drugiego, zamiast aktywnie wybierać pozycję.</p><pre><code>&lt;select onchange=&quot;...&quot;&gt;</code></pre><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard">Kryterium sukcesu 2.1.1 - Klawiatura</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#keyboard">Kryterium sukcesu 2.1.1 - Klawiatura</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F54.html">Błąd F54</a>: Niespełnienie kryterium sukcesu 2.1.1 z powodu używania funkcji obsługi zdarzeń specyficznych tylko dla urządzenia wskazującego (w tym gestów)</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#on-input">Kryterium sukcesu 3.2.2 - Podczas wprowadzania danych</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#on-input">Kryterium sukcesu 3.2.2 - Podczas wprowadzania danych</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F36.html">Błąd F36</a>: Niespełnienie kryterium sukcesu 3.2.2 z powodu automatycznego przesłania formularza i prezentacji nowej treści bez uprzedniego ostrzeżenia, gdy ostatnie pole formularza ma wartość</dd>
         </dl>
         <p><a href="#annot_link_03">Wróć do demo</a></p>
@@ -342,7 +342,7 @@
         <h3>Uwaga 04: Skrypt nie jest kompatybilny z niektórymi narzędziami</h3>
 <p>Skrypt wykorzystuje technikę <code>document.write()</code>, której należy unikać. Treść wstawiona w ten sposób do strony nie jest zawarta w Document Object Model (DOM) i może nie być prawidłowo przekazywana do interfejsów <acronym title="Application Programming Interface">API</acronym> dostępności używanych przez niektóre technologie wspomagające.</p><pre><code>document.write(today);</code></pre><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#compatible">Wytyczna 4.1 - Kompatybilność</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#compatible">Wytyczna 4.1 - Kompatybilność</a></dt>
           <dd>Sugerowana technika: Niewyświetlanie treści opartych na technologiach, które nie są obsługiwane przez dostępność, gdy technologia jest wyłączona lub nie jest obsługiwana.</dd>
         </dl>
         <p><a href="#annot_link_04">Wróć do demo</a></p>
@@ -351,7 +351,7 @@
         <h3>Uwaga 05: Brak mechanizmów pomijania powtarzających się treści</h3>
 <p>Strona nie oferuje mechanizmów do ominięcia nagłówków i bloków nawigacyjnych, które są powtarzane na każdej stronie. Takie <em>linki pomijające</em> sprawiają, że korzystanie z witryny jest bardziej skuteczne dla niektórych czytelników i użytkowników klawiatury.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks">Kryterium sukcesu 2.4.1 - Możliwość pominięcia bloków</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#bypass-blocks">Kryterium sukcesu 2.4.1 - Możliwość pominięcia bloków</a></dt>
           <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G1.html">Technika ogólna G1</a>: Dodanie u góry każdej strony linku, który prowadzi bezpośrednio do głównego obszaru zawartości</li><li>Sugerowana technika: Udostępnianie linków pomijania w celu ulepszenia nawigacji po stronie (przyszły link)</li></ul></dd>
         </dl>
         <p><a href="#annot_link_05">Wróć do demo</a></p>
@@ -360,7 +360,7 @@
         <h3>Uwaga 06: Tytuły sekcji i śródtytuły nie są oznaczone jako nagłówki</h3>
 <p>Szablon sugeruje stylizację nagłówków bez użycia odpowiedniego znacznika w kodzie HTML.</p><pre><code>&lt;p class=&quot;headline&quot;&gt;Szablon&lt;/p&gt;</code></pre><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#info-and-relationships">Kryterium sukcesu 1.3.1 - Informacje i relacje</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F2.html">Błąd F2</a>: Niespełnienie kryterium sukcesu 1.3.1 z powodu użycia zmian w prezentacji tekstu w celu przekazania informacji bez użycia odpowiedniego znacznika lub tekstu</dd>
         </dl>
         <p><a href="#annot_link_06">Wróć do demo</a></p>
@@ -369,7 +369,7 @@
         <h3>Uwaga 07: Obrazy bez tekstu alternatywnego</h3>
 <p>Pozycje w menu nawigacyjnym po lewej stronie to obrazy, które nie mają żadnej alternatywy tekstowej, więc dla niektórych czytelników nie jest jasne, do czego linki się odnoszą.</p><pre><code>&lt;a href=&quot;...&quot; ... &gt;&lt;img src=&quot;...&quot; ... &gt;</code></pre><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#non-text-content">Kryterium sukcesu 1.1.1 - Treść nietekstowa</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F65.html">Błąd F65</a>: Niepowodzenie Kryterium sukcesu 1.1.1 z powodu pominięcia atrybutu alt lub alternatywnego tekstu na elementach img, elementach obszaru i elementach wejściowych typu &quot;image&quot;</dd>
         </dl>
         <p><a href="#annot_link_07">Wróć do demo</a></p>
@@ -378,11 +378,11 @@
         <h3>Uwaga 08: Komponenty strony nie nadają się do ustawienia fokusa</h3>
 <p>Jest on automatycznie usuwany z pozycji menu za pomocą skryptów, więc niektórzy użytkownicy nie mogą nawigować między tymi elementami.</p><pre><code>&lt;a href=&quot;...&quot; onfocus=&quot;blur();&quot; ... &gt;</code></pre><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard">Kryterium sukcesu 2.1.1 - Klawiatura</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#keyboard">Kryterium sukcesu 2.1.1 - Klawiatura</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F55.html">Błąd F55</a>: Niepowodzenie Kryteriów sukcesu 2.1.1, 2.4.7 i 3.2.1 z powodu użycia skryptu do usunięcia fokusa po otrzymaniu fokusa</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-visible">Kryterium sukcesu 2.4.7 - Widoczny fokus</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#focus-visible">Kryterium sukcesu 2.4.7 - Widoczny fokus</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F55.html">Błąd F55</a>: Niepowodzenie Kryteriów sukcesu 2.1.1, 2.4.7 i 3.2.1 z powodu użycia skryptu do usunięcia fokusa po otrzymaniu fokusa</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#on-focus">Kryterium sukcesu 3.2.1 - Po oznaczeniu fokusem</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#on-focus">Kryterium sukcesu 3.2.1 - Po oznaczeniu fokusem</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F55.html">Błąd F55</a>: Niepowodzenie Kryteriów sukcesu 2.1.1, 2.4.7 i 3.2.1 z powodu użycia skryptu do usunięcia fokusa po otrzymaniu fokusa</dd>
         </dl>
         <p><a href="#annot_link_08">Wróć do demo</a></p>
@@ -391,17 +391,17 @@
         <h3>Uwaga 09: Tekst linku nie jest opisowy i nie różni się wizualnie</h3>
 <p>Szablon sugeruje użycie tekstu linku &quot;Czytaj więcej...&quot;, który nie jest opisowy, aby przekazać cel linku. Używa również kolorów podobnych do otaczającego tekstu, co utrudnia niektórym użytkownikom identyfikację łącza.</p><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#use-of-color">Kryterium sukcesu 1.4.1 - Użycie koloru</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#use-of-color">Kryterium sukcesu 1.4.1 - Użycie koloru</a></dt>
           <dd><ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/F73.html">Błąd F73</a>: Niespełnienie kryterium sukcesu 1.4.1 z powodu tworzenia łączy, które nie są widoczne dla osób niewidzących kolorów</li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G183.html">Technika ogólna G183</a>: Stosując współczynnik kontrastu 3: 1 z otaczającym tekstem i dostarczając dodatkowe wizualne wskazówki skupienia dla łączy lub kontrolek, w których stosowany jest sam kolor do ich identyfikacji</li></ul></dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation">Kryterium sukcesu 1.4.8 - Prezentacja wizualna</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#visual-presentation">Kryterium sukcesu 1.4.8 - Prezentacja wizualna</a></dt>
           <dd>Sugerowana technika: Twórz linki wyróżnione wizualnie (przyszły link)</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#navigable">Wytyczna 2.4 - Nawigacja</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#navigable">Wytyczna 2.4 - Nawigacja</a></dt>
           <dd>Sugerowana technika: Twórz linki wyróżnione wizualnie (przyszły link)</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context">Kryterium sukcesu 2.4.4 - Cel linku (w kontekście)</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#link-purpose-in-context">Kryterium sukcesu 2.4.4 - Cel linku (w kontekście)</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F63.html">Błąd F63</a>: Niepowodzenie Kryterium sukcesu 2.4.4 z powodu podania kontekstu łącza tylko w treści, która nie jest powiązana z linkiem</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-link-only">Kryterium sukcesu 2.4.9 - Cel linku (z samego linku)</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#link-purpose-link-only">Kryterium sukcesu 2.4.9 - Cel linku (z samego linku)</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/F89.html">Błąd F84</a>: Niepowodzenie Kryteriów sukcesu 2.4.4, 2.4.9 i 4.1.2 ze względu na brak podania dostępnej nazwy obrazu, który jest jedyną treścią w linku.</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#readable">Wytyczna 3.1 - Czytelność</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#readable">Wytyczna 3.1 - Czytelność</a></dt>
           <dd>Sugerowana technika: Twórz linki wyróżnione wizualnie (przyszły link)</dd>
         </dl>
         <p><a href="#annot_link_09">Wróć do demo</a></p>
@@ -410,9 +410,9 @@
         <h3>Uwaga 10: Niewystarczający kontrast kolorów</h3>
 <p>Współczynnik kontrastu między kolorem pierwszego planu (# 41545D) a kolorem tła (# A9B8BF) jest zbyt niski, aby niektórzy mogli je rozróżnić.</p><pre><code>{color:#41545D; background-color:#A9B8BF;"}</code></pre><p>Uwaga: Błędy w szablonie są powielane w całej witrynie.</p>
         <dl>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum">Kryterium sukcesu - 1.4.3 - Kontrast (minimalny)</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#contrast-minimum">Kryterium sukcesu - 1.4.3 - Kontrast (minimalny)</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G18.html">Technika ogólna G18</a>: Zapewnienie, że istnieje kontrast wynoszący co najmniej 4,5: 1 między tekstem (i obrazami tekstu) a tłem za tekstem</dd>
-          <dt><a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced">Kryterium sukcesu - 1.4.6 - Wzmocniony kontrast</a></dt>
+          <dt><a href="https://wcag.lepszyweb.pl/#contrast-enhanced">Kryterium sukcesu - 1.4.6 - Wzmocniony kontrast</a></dt>
           <dd><a href="https://www.w3.org/TR/WCAG20-TECHS/G17.html">Technika ogólna G17</a>: Zapewnienie, że istnieje kontrast wynoszący co najmniej 7: 1 między tekstem (i obrazami tekstu) a tłem za tekstem</dd>
         </dl>
         <p><a href="#annot_link_10">Wróć do demo</a></p>
