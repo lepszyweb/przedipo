@@ -172,9 +172,6 @@ input[type=submit] {
 	text-transform: uppercase;
 }
 
-
-
-
 #nav a:hover {
   color: #107684 /*#ba2710*/ !important;
 }
@@ -207,12 +204,9 @@ input[type=submit] {
   background: url(../after/img/surveyicon.png) no-repeat 10px 5px !important;
 }
 
-
-
 #nav .news a, #nav .news_set a {
   background: url(../after/img/newsicon.png) no-repeat 10px 5px;
 }
-
 
 #nav .facts a, #nav .facts_set a {
   background: url(../after/img/factsicon.png) no-repeat 10px 5px;
@@ -221,15 +215,19 @@ input[type=submit] {
 #nav .survey a, #nav .survey_set a {
   background: url(../after/img/surveyicon.png) no-repeat 10px 5px;
 }
+
 #nav .home a:hover, #nav .home_set a:hover {
   background: #005a9c url(../after/img/homeicon_hover.png) no-repeat 10px 5px;
 }
+
 #nav .news a:hover, #nav .news_set a:hover {
   background: #005a9c url(../after/img/newsicon_hover.png) no-repeat 10px 5px;
 }
+
 #nav .facts a:hover, #nav .facts_set a:hover {
   background: #005a9c url(../after/img/factsicon_hover.png) no-repeat 10px 5px;
 }
+
 #nav .survey a:hover, #nav .survey_set a:hover {
   background: #005a9c url(../after/img/surveyicon_hover.png) no-repeat 10px 5px;
 }
@@ -256,7 +254,6 @@ input[type=submit] {
   background: #005a9c url(../after/img/surveyicon_hover.png) no-repeat 10px 5px; 
 }
 
-
 #nav .home a:active, #nav .home a:focus, #nav .news a:active, #nav .news a:focus, #nav .facts a:active, #nav .facts a:focus, #nav .survey a:active, #nav .survey a:focus {
   background-color: #00c;
   color: #fff !important;
@@ -266,14 +263,6 @@ input[type=submit] {
   color: #000 !important;
   background-color: #fff !important;
 }
-
-
-
-
-
-
-
-
 
 /* @end */
 
