@@ -302,7 +302,7 @@ input[type=submit] {
 }
 
 #content #contentmain .news h2 a:focus {
-  color: #107684 /*#ba2710*/;
+  color: #fff /*#ba2710*/;
 }
 
 #content #contentmain .news p {
