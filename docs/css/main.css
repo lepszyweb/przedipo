@@ -198,22 +198,22 @@ input[type=submit] {
 
 #nav .home a:hover,#nav .home a:focus,#nav .home a:active, #nav .home_set a {
   background-image: url(../after/img/homeicon_hover.png);
-  background-color: #005a9c;
+  background-color: #005a9c; color: #fff;
 }
 
 #nav .news a:hover, #nav .news a:focus, #nav .news a:active, #nav .news_set a {
   background-image: url(../after/img/newsicon_hover.png);
-  background-color: #005a9c;
+  background-color: #005a9c; color: #fff;
 }
 
 #nav .facts a:hover, #nav .facts a:focus, #nav .facts a:active, #nav .facts_set a {
   background-image: url(../after/img/factsicon_hover.png);
-  background-color: #005a9c;
+  background-color: #005a9c; color: #fff;
 }
 
 #nav .survey a:hover, #nav .survey a:focus, #nav .survey a:active, #nav .survey_set a {
   background-image: url(../after/img/surveyicon_hover.png);
-  background-color: #005a9c;
+  background-color: #005a9c; color: #fff;
 }
 
 #nav a:focus {
