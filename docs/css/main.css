@@ -216,7 +216,8 @@ input[type=submit] {
 
 #nav .survey a:hover, #nav .survey a:focus, #nav .survey a:active, #nav .survey_set a {
   background-image: url(../after/img/surveyicon_hover.png);
-  background-color: #005a9c; color: #fff;
+  background-color: #005a9c;
+  color: #fff;
 }
 
 #nav a:focus {
