@@ -204,7 +204,8 @@ input[type=submit] {
 
 #nav .news a:hover, #nav .news a:focus, #nav .news a:active, #nav .news_set a {
   background-image: url(../after/img/newsicon_hover.png);
-  background-color: #005a9c; color: #fff;
+  background-color: #005a9c;
+  color: #fff;
 }
 
 #nav .facts a:hover, #nav .facts a:focus, #nav .facts a:active, #nav .facts_set a {
